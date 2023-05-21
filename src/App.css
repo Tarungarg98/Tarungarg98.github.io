@@ -28,11 +28,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.webpage{
+	padding-top:20px;
+	margin-left:30px;
+	margin-right:30px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.project{
+	margin-left:10%;
+	margin-right:10%;
+  text-align: justify;
+}
+
+.project-title{
+	font-size:30px;
+	
+}
+.project-title:hover{
+    text-decoration: underline;
+}
+
+
+.number{
+	background: rgba(72, 3, 84,0.5);
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:30px;
+	}
+.number:hover{
+	font-size:150%;
+	}
+.popup content {
+  margin: auto;
+  background: rgb(0, 0, 0);
+  padding: 5px;
 }
