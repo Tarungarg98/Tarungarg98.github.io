@@ -1,6 +1,6 @@
 import React from "react";
-import si_99_roomz_img from "../images/99roomz.png";
-import Webpage from "./webpage_template";
+import si_99_roomz_img from "./images/99roomz.png";
+import CompanyPage from "./companypage_template";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const SI_99ROOMZ = () => {
@@ -160,22 +160,20 @@ const SI_99ROOMZ = () => {
             accuracy of the model can be improved by trying out other Machine
             Learning Algorithms.
           </p>
-          <h3>Team</h3>
-          <p>
-            This project was designed during my Summer Internship at 99 roomz in
-            2019 along with Arpit Jadiya, Manish Sharma and Spandan Singh.
-          </p>
         </div>
       ),
     },
   ];
   return (
     <div className="container">
-      <Webpage
-        companyname="Walmart Labs"
+      <CompanyPage
+        companyname="99Roomz"
+        designation="Data Science Intern"
+        duration="May 2019 - July 2019"
+        brief="My first internship in Data Science proved to be a transformative experience, with a primary focus on Natural Language Processing (NLP). During this period, I successfully developed and implemented NLP models utilizing the Stanford NER Tagger. These models effectively extracted essential components from raw text, enabling their utilization in subsequent processes. Collaborating closely with Arpit Jadiya on this project, we benefited greatly from the invaluable mentorship provided by Manish Sharma and Spandan Singh. Their guidance and expertise were instrumental in refining our skills and ensuring the success of our NLP endeavors."
         image={si_99_roomz_img}
         projects={projects}
-      ></Webpage>
+      ></CompanyPage>
     </div>
   );
 };

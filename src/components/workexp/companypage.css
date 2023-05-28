@@ -1,0 +1,59 @@
+.companypage {
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
+
+.companypage .details {
+  /* padding: 18px; */
+  /* width: 100%; */
+  border: none;
+  text-align: justify;
+  outline: none;
+  font-size: 15px;
+}
+
+.companypage img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.companypage .designation {
+  color: #800000;
+}
+
+.companypage .duration {
+  color: green;
+}
+
+.project {
+  text-align: justify;
+}
+
+.project-title {
+  background-color: rgba(72, 3, 84, 0);
+  font-size: 20px;
+  border: none;
+  text-align: left;
+}
+
+.project-title:hover {
+  text-decoration: underline;
+}
+
+.number {
+  background: rgba(72, 3, 84, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.number:hover {
+  font-size: 150%;
+}
+/* ul {
+  margin-left: 10px;
+  padding-left: 10px;
+} */

@@ -1,6 +1,6 @@
 import React from "react";
-import walmartLabs_img from "../images/walmart.png";
-import Webpage from "./webpage_template";
+import walmartLabs_img from "./images/walmart.png";
+import CompanyPage from "./companypage_template";
 
 const WalmartLabs = () => {
   const projects = [
@@ -60,22 +60,20 @@ const WalmartLabs = () => {
             Confidence interval of predicted value was categorized as an
             anomaly.
           </p>
-          <h3>Team</h3>
-          <p>
-            This project was designed during my Summer Internship at Walmart
-            Labs in 2020, along with Ritish Menon and Mainak Mitra.
-          </p>
         </div>
       ),
     },
   ];
   return (
     <div className="container">
-      <Webpage
+      <CompanyPage
         companyname="Walmart Labs"
+        designation="Data Science Intern"
+        duration="May 2020 - July 2020"
+        brief="Working for MNC on a large-scale project has been an exceptional opportunity for professional growth. I had the privilege of contributing to the company's efforts in detecting anomaly power consumption in Walmart stores through the application of various approaches and machine learning (ML) models. During this project, I received invaluable guidance and mentorship from Ritish Menon and Mainak Mitra, who played crucial roles in my development. I am proud to have made a meaningful impact on the company's operations by leveraging ML techniques to identify and address abnormal power consumption patterns. This experience has further solidified my passion for utilizing data-driven approaches to drive efficiency and optimize resource utilization."
         image={walmartLabs_img}
         projects={projects}
-      ></Webpage>
+      ></CompanyPage>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
-import cars24_img from "../images/cars24.png";
-import Webpage from "./webpage_template";
+import cars24_img from "./images/cars24.png";
+import CompanyPage from "./companypage_template";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Cars24 = () => {
@@ -54,11 +54,6 @@ const Cars24 = () => {
           <p></p>
           <h3>Scope for improvements?</h3>
           <p></p>
-          <h3>Team</h3>
-          <p>
-            This project is being designed as my current project at Cars 24,
-            along with Atish Jain.
-          </p>
         </div>
       ),
     },
@@ -75,22 +70,25 @@ const Cars24 = () => {
           <p></p>
           <h3>Scope for improvements?</h3>
           <p></p>
-          <h3>Team</h3>
-          <p>
-            This project is being designed as my current project at Cars 24,
-            along with Atish Jain.
-          </p>
         </div>
       ),
     },
   ];
   return (
     <div className="container">
-      <Webpage
+      <CompanyPage
         companyname="Cars24"
+        designation="Data Scientist"
+        duration="May 2021 - Present"
+        brief="
+        Since joining Cars24 as a graduate, I have consistently proven myself to be a valuable asset to the company. I embarked on my journey by working on the Fraud Model, where I successfully identified crucial fraudulent patterns in dealer historical behavior and seller-dealer collusions. Presently, I am actively involved in retraining an updated version of the model to enhance its effectiveness. Additionally, I gained exposure to the Pricing for Australia Module and Stuck Inventory Liquidation, broadening my skill set.
+        
+        Throughout my tenure, I have received numerous recognitions from the organization for my significant contributions. These acknowledgments serve as a testament to my dedication and commitment to delivering impactful results.
+        
+        I am proud to have made a positive impact on Cars24's operations, and I am eager to continue leveraging my skills and knowledge to drive further success within the company."
         image={cars24_img}
         projects={projects}
-      ></Webpage>
+      ></CompanyPage>
     </div>
   );
 };

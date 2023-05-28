@@ -1,6 +1,6 @@
 import React from "react";
-import kec_img from "../images/kec.png";
-import Webpage from "./webpage_template";
+import kec_img from "./images/kec.png";
+import CompanyPage from "./companypage_template";
 
 const KEC_INTERNATIONAL = () => {
   const projects = [
@@ -29,22 +29,20 @@ const KEC_INTERNATIONAL = () => {
             organization in designing training programs for workers to utilize
             workforce efficiently.
           </p>
-          <h3>Team</h3>
-          <p>
-            This project was designed during my Summer Internship at KEC
-            International in 2018.
-          </p>
         </div>
       ),
     },
   ];
   return (
     <div className="container">
-      <Webpage
+      <CompanyPage
         companyname="KEC International"
+        designation="Logistic Intern"
+        duration="May 2018 - July 2018"
+        brief="KEC International is a prominent manufacturing company that manages extensive daily operations involving loading and unloading processes. Throughout my internship, I actively engaged in valuable discussions with my mentor, Saurabh Agarwal, to enhance logistics Turnaround Time (TAT) by conducting a comprehensive analysis of vehicle waiting times. Drawing upon the insights gained from these discussions and my diligent efforts, I compiled a comprehensive report that encapsulated my findings and presented actionable suggestions to the company. This report aimed to optimize the overall efficiency of their logistics operations, ensuring seamless workflow and improved productivity. I believe that my dedication and analytical skills have positioned me well to thrive in challenging roles."
         image={kec_img}
         projects={projects}
-      ></Webpage>
+      ></CompanyPage>
     </div>
   );
 };
