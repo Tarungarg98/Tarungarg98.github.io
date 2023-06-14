@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+}
+.layout {
+  padding: 15px;
+}
+@media screen and (max-width: 768px) {
+  .layout {
+    padding: 10px;
+  }
+  .certificate_component {
+    display: none;
+  }
+}
+
+.layout {
+  width: 100vw;
+  height: 100vh;
+  width: calc(100vw - (100vw - 100%));
+}

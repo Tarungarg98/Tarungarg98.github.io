@@ -1,21 +1,20 @@
 import React from "react";
 import Project from "./project_template";
-import "./companypage.css";
+import "./college_project.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const CompanyPage = (props) => {
+const CollegeProjects = (props) => {
   return (
-    <div className="companypage">
+    <div className="college_project">
       <div className="row">
         <div className="col-md-3">
           <div>
-            <img src={props.image}></img>
+            <h3 className="prof_name">{props.prof_name}</h3>
+            <h4 className="duration">{props.duration}</h4>
+            {/* <div className="brief">{props.brief}</div> */}
           </div>
         </div>
         <div className="col-md-9 details">
-          <h3 className="designation">{props.designation}</h3>
-          <h4 className="duration">{props.duration}</h4>
-          <div className="brief">{props.brief}</div>
           <br></br>
           <div className="description">
             <ul>
@@ -36,4 +35,4 @@ const CompanyPage = (props) => {
   );
 };
 
-export default CompanyPage;
+export default CollegeProjects;

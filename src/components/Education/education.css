@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+  .education {
+    padding-top: 40px;
+  }
+  .education .content {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60%;
+  }
+  .education .brief {
+    text-align: justify;
+  }
+  .education img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .education {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .education .content {
+    text-align: left;
+  }
+  .education .brief {
+    text-align: justify;
+  }
+  .education img {
+    width: 60vw;
+  }
+}
+.education {
+  background: rgba(54, 162, 54, 0.1); /*  40% opaque green */
+}

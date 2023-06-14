@@ -1,0 +1,68 @@
+@media screen and (min-width: 768px) {
+  .intro_page {
+    position: relative;
+    margin: -15px;
+    margin-top: -35px;
+    height: 101vh;
+    width: 100%+20px;
+    padding-top: 3.5%;
+    /* background-color: aquamarine; */
+    background-image: url("./images/tarun1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+  }
+  .intro_page .brief {
+    text-align: justify;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 22%;
+    padding-top: 10px;
+  }
+  .intro_page img {
+    position: relative;
+    max-height: 100vh;
+    max-width: 100%;
+  }
+
+  .intro_page .icon {
+    margin-left: 30%;
+    margin-right: 20%;
+    padding-top: 300px;
+  }
+  .intro_page .icon img {
+    width: 60px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro_page {
+    position: relative;
+    max-width: 100vw;
+    padding-top: 3.5%;
+  }
+  .intro_page .brief {
+    text-align: justify;
+    padding-top: 10px;
+  }
+  .intro_page .icon {
+    align-items: center;
+    padding-top: 50px;
+  }
+  .intro_page .icon img {
+    width: 60px;
+    margin-left: 20px;
+  }
+}
+.myname {
+  font-family: belluga;
+}
+
+.intro_page .blog_url {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}

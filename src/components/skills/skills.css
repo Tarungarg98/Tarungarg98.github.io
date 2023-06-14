@@ -1,0 +1,15 @@
+.skills {
+  background: rgba(54, 131, 162, 0.1); /*  40% opaque green */
+  padding-top: 35px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 0;
+}
+.skills img {
+  width: 100%;
+}
+
+.skills ul {
+  text-align: left;
+  font-size: large;
+}

@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+  .volunteering {
+    padding-top: 35px;
+  }
+
+  .volunteering .brief {
+    text-align: justify;
+    width: 70%;
+    /* margin-right: 10%; */
+  }
+
+  .volunteering img {
+    max-width: 35%;
+    max-height: 70%;
+  }
+
+  hr {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .volunteering {
+    padding-top: 10px;
+  }
+
+  .volunteering .brief {
+    text-align: justify;
+  }
+
+  .volunteering img {
+    width: 60vw;
+  }
+
+  hr {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+.volunteering {
+  background: rgba(197, 146, 69, 0.1); /*  40% opaque green */
+}

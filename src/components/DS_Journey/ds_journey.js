@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./ds_journey.css";
+import { AppContext } from "../../context/AppContext";
 
 const DS_Journey = () => {
+  const { dispatch } = useContext(AppContext);
+
+  const changeView = () => {
+    dispatch({
+      type: "SHOW_BLOG",
+    });
+  };
   return (
-    <div className="ds_journey">
+    <div className="ds_journey" id="Blog_DS_Journey">
+      <button onClick={changeView}>Back</button>
       <p>
         Hi, myself Tarun Garg, a 2021 graduate from BITS Pilani Hyderabad
         Campus, currently working as a Data Scientist @ Cars24. Like every other

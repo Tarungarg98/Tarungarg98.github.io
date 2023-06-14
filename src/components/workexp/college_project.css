@@ -1,30 +1,18 @@
 @media screen and (min-width: 768px) {
-  .companypage img {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
 }
 @media screen and (max-width: 768px) {
-  .companypage img {
-    width: 60vw;
-    padding-bottom: 20px;
-  }
-  .companypage .brief {
+  .college_project .brief {
     display: none;
   }
   .project-title {
     text-decoration: underline;
   }
 }
-.companypage {
+.college_project {
   position: relative;
 }
 
-.companypage .details {
+.college_project .details {
   border: none;
   text-align: justify;
   max-width: 95vw;
@@ -32,11 +20,16 @@
   font-size: 15px;
 }
 
-.companypage .designation {
+.college_project .prof_name a {
+  text-decoration: none;
+
+  color: #800000;
+}
+.college_project .prof_name {
   color: #800000;
 }
 
-.companypage .duration {
+.college_project .duration {
   color: green;
 }
 
@@ -55,16 +48,7 @@
   text-decoration: underline;
 }
 
-.number {
-  background: rgba(72, 3, 84, 0.5);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 24px;
-}
-.number:hover {
-  font-size: 230%;
-}
-.companypage .topic_head {
+.college_project .topic_head {
   font-weight: 500;
   font-size: large;
 }

@@ -1,0 +1,12 @@
+.awards {
+  padding-top: 35px;
+  max-width: 95vw;
+}
+
+.awards img {
+  max-width: 90%;
+}
+
+.awards img:hover {
+  transform: scale(1.1);
+}

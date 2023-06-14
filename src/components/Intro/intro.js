@@ -1,17 +1,26 @@
-import React from "react";
-import tarun_img from "../images/tarun1.jpg";
-import github_img from "../images/github.png";
-import resume_img from "../images/resume.png";
-import email_img from "../images/email.png";
-import linkedin_img from "../images/linkedin.png";
+import React, { useContext } from "react";
+import tarun_img from "./images/tarun1.jpg";
+import github_img from "./images/github.png";
+import resume_img from "./images/resume.png";
+import email_img from "./images/email.png";
+import linkedin_img from "./images/linkedin.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../css/intro.css";
+import "./intro.css";
+
+import { AppContext } from "../../context/AppContext";
 
 const IntroPage = () => {
+  const { dispatch } = useContext(AppContext);
+
+  const changeView = () => {
+    dispatch({
+      type: "SHOW_BLOG",
+    });
+  };
   return (
-    <div className="intro_page">
-      <div className="row">
-        <div className="col sm-5 brief">
+    <div>
+      <div className="intro_page" id="intro_page">
+        <div className="brief">
           <h2 className="myname">Hi, I'm Tarun Garg</h2>
           <h3>Data Scientist @ Cars24</h3>
           Welcome to my personal website! I'm a passionate data scientist with
@@ -27,6 +36,10 @@ const IntroPage = () => {
           achievements. I'm open to new opportunities and collaborations, so
           let's connect and create something extraordinary together in the world
           of data science.
+          <br></br>
+          {/* <button class="blog_url" onClick={changeView}>
+          Click here to check out my Data Science Journey
+        </button> */}
           <div className="icon">
             <a
               href="https://drive.google.com/file/d/1Mdv1OSIuPaHuFCK637n77w1bpdYWZIVG/view"
@@ -58,10 +71,8 @@ const IntroPage = () => {
             </a>
           </div>
         </div>
-        {/* <div className="col sm-2">
-          <img src={tarun_img}></img>
-        </div> */}
       </div>
+      <br></br>
     </div>
   );
 };

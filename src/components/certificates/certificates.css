@@ -1,0 +1,14 @@
+.certificates {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 30px;
+}
+
+.certificates img {
+  padding-top: 30px;
+  max-width: 28vw;
+}
+
+.certificates img:hover {
+  transform: scale(1.2);
+}
