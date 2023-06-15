@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.b4ccec07.css",
+    "main.js": "/personal-portfolio/static/js/main.65ff5ef7.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/c2b_inventory.png": "/personal-portfolio/static/media/c2b_inventory.787267c6f79962a97be0.png",
+    "static/media/deep_learning.png": "/personal-portfolio/static/media/deep_learning.1341d36d416fe845559c.png",
+    "static/media/nlp.png": "/personal-portfolio/static/media/nlp.c2c9d3bdb00defb15c3f.png",
+    "static/media/react.png": "/personal-portfolio/static/media/react.91d558c3212ffed13748.png",
+    "static/media/tensorflow.png": "/personal-portfolio/static/media/tensorflow.0c993ede34bd8676a2bb.png",
+    "static/media/machine_learning.png": "/personal-portfolio/static/media/machine_learning.082c5be9452607140a8e.png",
+    "static/media/BITS.png": "/personal-portfolio/static/media/BITS.64007813fee1e36b92fc.png",
+    "static/media/walmart.png": "/personal-portfolio/static/media/walmart.129fa64a92c9790f52dc.png",
+    "static/media/tarun1.jpg": "/personal-portfolio/static/media/tarun1.c8c0d6d38f5948cc807c.jpg",
+    "static/media/mhsg1.png": "/personal-portfolio/static/media/mhsg1.4a58fb5028c991d3b7e3.png",
+    "static/media/skill.png": "/personal-portfolio/static/media/skill.15386150cfb967245195.png",
+    "static/media/aiisc.png": "/personal-portfolio/static/media/aiisc.099a332e30da60a1f7f5.png",
+    "static/media/nss.png": "/personal-portfolio/static/media/nss.f53d6346f6d852ac0a8c.png",
+    "static/media/email.png": "/personal-portfolio/static/media/email.506e976b1e1b4ad1c518.png",
+    "static/media/kec.png": "/personal-portfolio/static/media/kec.8ec750fb2dbbb5ca3a15.png",
+    "static/media/resume.png": "/personal-portfolio/static/media/resume.6221e529b3f85b90b3d9.png",
+    "static/media/github.png": "/personal-portfolio/static/media/github.a72664b0a0209018e576.png",
+    "static/media/aus.png": "/personal-portfolio/static/media/aus.a33abcf4afe6151fd81d.png",
+    "static/media/cars24.png": "/personal-portfolio/static/media/cars24.1c2f44af68cbf943f9f9.png",
+    "static/media/99roomz.png": "/personal-portfolio/static/media/99roomz.f72901e9dcf6b6a50886.png",
+    "static/media/rookie.png": "/personal-portfolio/static/media/rookie.780d4688f2eb39f4aebb.png",
+    "static/media/linkedin.png": "/personal-portfolio/static/media/linkedin.e422a7a6be1a6a0b7cad.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.b4ccec07.css.map": "/personal-portfolio/static/css/main.b4ccec07.css.map",
+    "main.65ff5ef7.js.map": "/personal-portfolio/static/js/main.65ff5ef7.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4ccec07.css",
+    "static/js/main.65ff5ef7.js"
+  ]
+}
