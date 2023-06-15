@@ -1,0 +1,23 @@
+.publications {
+  background: rgba(43, 215, 112, 0.1); /*  40% opaque green */
+  padding-top: 35px;
+  margin-top: 15px;
+}
+.publications .abstract {
+  padding: 10px;
+  text-align: justify;
+}
+
+.publications a {
+  color: #000;
+  text-decoration: none;
+  font-size: large;
+}
+
+.publications a:hover {
+  text-decoration: underline;
+}
+
+.publications .paper {
+  padding-top: 20px;
+}

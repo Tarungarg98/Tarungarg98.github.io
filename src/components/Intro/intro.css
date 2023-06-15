@@ -39,8 +39,7 @@
 @media screen and (max-width: 768px) {
   .intro_page {
     position: relative;
-    max-width: 100vw;
-    padding-top: 3.5%;
+    padding-top: 25px;
   }
   .intro_page .brief {
     text-align: justify;
@@ -57,6 +56,7 @@
 }
 .myname {
   font-family: belluga;
+  margin-bottom: 0;
 }
 
 .intro_page .blog_url {

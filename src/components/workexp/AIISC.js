@@ -10,7 +10,7 @@ const AIISC = () => {
       description: (
         <div class="container">
           <a
-            href="https://www.sciencedirect.com/science/article/abs/pii/S2352710221011141"
+            href="https://arxiv.org/abs/2305.04989"
             title="Paper Link"
             target="_blank"
           >

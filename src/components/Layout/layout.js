@@ -9,6 +9,7 @@ import Certificates from "../certificates/certificates";
 import Volunteering from "../Volunteering/volunteering_experiences";
 import NavBar from "../navigation_bar/nav_bar";
 import Skills from "../skills/skills";
+import Publications from "../publications/publications";
 
 import { AppContext } from "../../context/AppContext";
 import "./layout.css";
@@ -26,6 +27,7 @@ const Layout = () => {
         <Skills />
         <WorkExp />
         <Awards />
+        <Publications />
         <Volunteering />
         <div className="certificate_component">
           <Certificates />

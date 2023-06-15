@@ -13,6 +13,16 @@ export const AppReducer = (state, action) => {
       return {
         ...state,
       };
+    case "SHOW_SIDEBAR":
+      action.type = "DONE";
+      if (state.show_sidebar === 1) {
+        state.show_sidebar = 0;
+      } else {
+        state.show_sidebar = 1;
+      }
+      return {
+        ...state,
+      };
 
     default:
       return state;
@@ -22,6 +32,7 @@ export const AppReducer = (state, action) => {
 // 1. Sets the initial state when the app loads
 const initialState = {
   show_blog: 0,
+  show_sidebar: 0,
 };
 
 // 2. Creates the context this is the thing our components import and use to get the state
@@ -36,6 +47,7 @@ export const AppProvider = (props) => {
     <AppContext.Provider
       value={{
         show_blog: state.show_blog,
+        show_sidebar: state.show_sidebar,
         dispatch,
       }}
     >

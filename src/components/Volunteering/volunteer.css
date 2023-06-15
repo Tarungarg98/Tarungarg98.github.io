@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   .volunteering {
     padding-top: 35px;
+    margin-top: 15px;
   }
 
   .volunteering .brief {
@@ -22,6 +23,8 @@
 @media screen and (max-width: 768px) {
   .volunteering {
     padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .volunteering .brief {
