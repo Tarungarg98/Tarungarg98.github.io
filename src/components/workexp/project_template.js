@@ -6,9 +6,9 @@ import useGAEvent from "../GA4/ga4analytics";
 const Project = (props) => {
   const [buttonPopup, setButtonPopup] = useState(false);
 
-  const Project_expand_GAEvent = () => {
-    useGAEvent("project-expand", props.name);
-  };
+  // const project_expand_GAEvent = () => {
+  //   useGAEvent("project-expand", props.name);
+  // };
 
   return (
     <div className="project">
@@ -16,7 +16,7 @@ const Project = (props) => {
         className="project-title"
         onClick={() => {
           setButtonPopup(~buttonPopup);
-          Project_expand_GAEvent();
+          // project_expand_GAEvent();
         }}
       >
         {props.name}

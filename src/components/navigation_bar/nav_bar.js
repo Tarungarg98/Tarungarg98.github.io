@@ -8,7 +8,6 @@ const NavBar = () => {
   const { show_sidebar, dispatch } = useContext(AppContext);
 
   const Open_sidebar = () => {
-    useGAEvent("button", "open_navigation");
     dispatch({
       type: "SHOW_SIDEBAR",
     });
@@ -24,6 +23,7 @@ const NavBar = () => {
   useGAEvent("in-page-navigation", "#volunteering");
 
   // Track button click
+  // useGAEvent("button", "open_navigation");
 
   let sidebar_content = <div></div>;
   if (show_sidebar === 1) {
