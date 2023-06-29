@@ -22,9 +22,6 @@ const NavBar = () => {
   useGAEvent("in-page-navigation", "#publications");
   useGAEvent("in-page-navigation", "#volunteering");
 
-  // Track button click
-  useGAEvent("button", "open_navigation");
-
   let sidebar_content = <div></div>;
   if (show_sidebar === 1) {
     sidebar_content = (
