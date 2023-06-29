@@ -20,8 +20,8 @@ const useGAEvent = (category, label) => {
       element.addEventListener("click", handleClick);
     });
 
-    const buttonElement = document.querySelector(".project-title");
-    buttonElement.addEventListener("click", handleClick);
+    // const buttonElement = document.querySelector(".project-title");
+    // buttonElement.addEventListener("click", handleClick);
 
     return () => {
       elements.forEach((element) => {
