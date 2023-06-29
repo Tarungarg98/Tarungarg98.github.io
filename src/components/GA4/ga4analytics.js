@@ -8,7 +8,7 @@ const useGAEvent = (category, label) => {
       ReactGA.event("click", {
         category,
         label,
-        location: window.location.pathname + window.location.search,
+        // location: window.location.pathname + window.location.search,
       });
 
       // Perform your routing logic here
@@ -19,6 +19,9 @@ const useGAEvent = (category, label) => {
     elements.forEach((element) => {
       element.addEventListener("click", handleClick);
     });
+
+    const buttonElement = document.querySelector(".project-title");
+    buttonElement.addEventListener("click", handleClick);
 
     return () => {
       elements.forEach((element) => {
