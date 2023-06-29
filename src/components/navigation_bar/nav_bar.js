@@ -30,7 +30,7 @@ const NavBar = () => {
     sidebar_content = (
       <div className="sidebar_open">
         <div>
-          <button className="closebtn" onClick={open_sidebar}>
+          <button className="closebtn" onClick={Open_sidebar}>
             Close
           </button>
         </div>
