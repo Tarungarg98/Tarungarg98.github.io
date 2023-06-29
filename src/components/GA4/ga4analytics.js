@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { ReactGA } from "react-ga4";
+import ReactGA from "react-ga4";
 
 const useGAEvent = (category, label) => {
   useEffect(() => {
