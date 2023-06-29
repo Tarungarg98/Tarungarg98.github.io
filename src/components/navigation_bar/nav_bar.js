@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./nav_bar.css";
 import { AppContext } from "../../context/AppContext";
+import useGAEvent from "../GA4/ga4analytics";
 
 const NavBar = () => {
   const { show_sidebar, dispatch } = useContext(AppContext);
@@ -11,6 +12,18 @@ const NavBar = () => {
       type: "SHOW_SIDEBAR",
     });
   };
+
+  // Track href click
+  useGAEvent("in-page-navigation", "#intro_page");
+  useGAEvent("in-page-navigation", "#education");
+  useGAEvent("in-page-navigation", "#skills");
+  useGAEvent("in-page-navigation", "#workexp");
+  useGAEvent("in-page-navigation", "#awards");
+  useGAEvent("in-page-navigation", "#publications");
+  useGAEvent("in-page-navigation", "#volunteering");
+
+  // Track button click
+  useGAEvent("button", "open_navigation");
 
   let sidebar_content = <div></div>;
   if (show_sidebar === 1) {
@@ -64,7 +77,11 @@ const NavBar = () => {
       </div>
       <div className="nav_bar_sidebar">
         <nav>
-          <button className="openbtn" onClick={open_sidebar}>
+          <button
+            id="open_navigation"
+            className="openbtn"
+            onClick={open_sidebar}
+          >
             ☰ Navigation Bar
           </button>
           {sidebar_content}
