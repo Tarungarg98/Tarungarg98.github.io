@@ -7,7 +7,7 @@ import useGAEvent from "../GA4/ga4analytics";
 const NavBar = () => {
   const { show_sidebar, dispatch } = useContext(AppContext);
 
-  const open_sidebar = () => {
+  const Open_sidebar = () => {
     useGAEvent("button", "open_navigation");
     dispatch({
       type: "SHOW_SIDEBAR",
@@ -80,7 +80,7 @@ const NavBar = () => {
           <button
             id="open_navigation"
             className="openbtn"
-            onClick={open_sidebar}
+            onClick={Open_sidebar}
           >
             ☰ Navigation Bar
           </button>
