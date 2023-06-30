@@ -3,12 +3,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./nav_bar.css";
 import { AppContext } from "../../context/AppContext";
 import useGAEvent from "../GA4/ga4analytics";
+import ReactGA from "react-ga4";
 
 const NavBar = () => {
   const { show_sidebar, dispatch } = useContext(AppContext);
 
-  const Open_sidebar = () => {
-    useGAEvent("button", "open_navigation");
+  const Open_sidebar = (navbar_action) => {
+    ReactGA.event("click", {
+      category: "button",
+      label: navbar_action,
+    });
     dispatch({
       type: "SHOW_SIDEBAR",
     });
@@ -22,13 +26,17 @@ const NavBar = () => {
   useGAEvent("in-page-navigation", "#awards");
   useGAEvent("in-page-navigation", "#publications");
   useGAEvent("in-page-navigation", "#volunteering");
+  useGAEvent("button", "open_navigation");
 
   let sidebar_content = <div></div>;
   if (show_sidebar === 1) {
     sidebar_content = (
       <div className="sidebar_open">
         <div>
-          <button className="closebtn" onClick={Open_sidebar}>
+          <button
+            className="closebtn"
+            onClick={() => Open_sidebar("navbar_close")}
+          >
             Close
           </button>
         </div>
@@ -78,7 +86,7 @@ const NavBar = () => {
           <button
             id="open_navigation"
             className="openbtn"
-            onClick={Open_sidebar}
+            onClick={() => Open_sidebar("navbar_open")}
           >
             ☰ Navigation Bar
           </button>
