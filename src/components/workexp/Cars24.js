@@ -227,8 +227,8 @@ const Cars24 = () => {
         target="_blank"
       >
         Dr Pankaj Porwal
-      </a>{" "}
-      and{" "}
+      </a>
+      ,{" "}
       <a
         href="https://www.linkedin.com/in/atishnits/"
         title="Atish Jain"
@@ -236,6 +236,14 @@ const Cars24 = () => {
       >
         Atish Jain
       </a>{" "}
+      and{" "}
+      <a
+        href="https://www.linkedin.com/in/naresh-mehta-68a52811/"
+        title="Naresh Mehta"
+        target="_blank"
+      >
+        Naresh Mehta
+      </a>
       , I actively collaborated with my colleagues{" "}
       <a
         href="https://www.linkedin.com/in/kanaad-kesharwani-1ab38115a/"
