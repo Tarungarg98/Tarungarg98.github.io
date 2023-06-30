@@ -20,10 +20,13 @@ const useGAEvent = (category, label) => {
       element.addEventListener("click", handleClick);
     });
 
+    const open_navigation_button = document.querySelector("open_navigation");
+    open_navigation_button.addEventListener("click", handleClick);
     return () => {
       elements.forEach((element) => {
         element.removeEventListener("click", handleClick);
       });
+      open_navigation_button.removeEventListener("click", handleClick);
     };
   }, [category, label]);
 };
