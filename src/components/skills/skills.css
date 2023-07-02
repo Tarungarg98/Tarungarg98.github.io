@@ -7,9 +7,20 @@
 }
 .skills img {
   width: 100%;
+  /* box-shadow: 0 0 10px greenyellow; */
+  animation: glow 1s infinite alternate;
 }
 
 .skills ul {
   text-align: left;
   font-size: large;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px -10px #f1d419;
+  }
+  to {
+    box-shadow: 0 0 10px 10px #f1d419;
+  }
 }
