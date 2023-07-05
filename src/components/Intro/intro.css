@@ -46,6 +46,12 @@
     min-height: 40vh;
     position: relative;
   }
+  .intro_page h2 {
+    margin-left: 20%;
+  }
+  .typewriter {
+    letter-spacing: 0.1em;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -66,6 +72,9 @@
   .intro_page .icon {
     align-items: center;
     padding-top: 10%;
+  }
+  .typewriter {
+    letter-spacing: 0.05em;
   }
 }
 .intro_page .icon {
@@ -89,4 +98,8 @@
   font-family: segoe-script, cursive;
   margin-bottom: 0;
   letter-spacing: 0.1em; /* Adjust as needed */
+}
+
+h2.typewriter {
+  animation-delay: 2s; /* Add a delay of 2 seconds */
 }

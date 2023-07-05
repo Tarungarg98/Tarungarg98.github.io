@@ -11,7 +11,7 @@ const Education = () => {
       <div className="row">
         <div className="col-md-4">
           <img src={bits_img}></img>
-          <h3>BITS Pilani</h3>
+          <h3 className="fade-in-left-to-right">BITS Pilani</h3>
           <h4>July 2016 - May 2021</h4>
         </div>
         <div className="col-md-8 content">

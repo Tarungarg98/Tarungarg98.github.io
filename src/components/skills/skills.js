@@ -36,7 +36,7 @@ const Skills = () => {
             <li>Deep Learning</li>
           </ul>
         </div>
-        <div className="col-md-2">
+        <div className="col-md-2 skills_img">
           <img src={skill_img}></img>
         </div>
         <div className="col-md-3">

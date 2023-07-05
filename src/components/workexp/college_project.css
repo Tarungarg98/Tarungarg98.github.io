@@ -26,11 +26,13 @@
   color: #800000;
 }
 .college_project .prof_name {
+  text-align: left;
   color: #800000;
 }
 
 .college_project .duration {
   color: green;
+  text-align: left;
 }
 
 .project {

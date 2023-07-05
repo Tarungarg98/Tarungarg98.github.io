@@ -17,6 +17,11 @@
   padding-right: 3%;
   padding-bottom: 0;
 }
+.skills_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .skills img {
   animation: glow 1s infinite alternate;
 }
