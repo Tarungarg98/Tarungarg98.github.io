@@ -6,7 +6,6 @@ import email_img from "./images/email.png";
 import linkedin_img from "./images/linkedin.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./intro.css";
-import { TypewriterEffect, DelayedContent } from "../utils/utils";
 
 import { AppContext } from "../../context/AppContext";
 
