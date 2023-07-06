@@ -11,13 +11,13 @@ const Awards = () => {
       <h1> Awards</h1>
       <div class="row">
         <div class="col-md-4">
-          <img src={rookie_img}></img>
+          <img src={rookie_img} alt="Rookie of the Quarter"></img>
         </div>
         <div class="col-md-4">
-          <img src={aus_img}></img>
+          <img src={aus_img} alt="Australia Team Award"></img>
         </div>
         <div class="col-md-4">
-          <img src={inv_img}></img>
+          <img src={inv_img} alt="Inventory Team Award"></img>
         </div>
       </div>
       <br></br>

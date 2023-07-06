@@ -12,7 +12,7 @@ const Volunteering = () => {
       <hr></hr>
       <div className="row">
         <div className="col-md-3">
-          <img src={mhsgImg}></img>
+          <img src={mhsgImg} alt="BITS MHSG Logo"></img>
           <h4>Founder, Leader & Mentor</h4>
           <h5>May 2020 - Present</h5>
         </div>
@@ -42,7 +42,7 @@ const Volunteering = () => {
       <hr></hr>
       <div className="row">
         <div className="col-md-3">
-          <img src={nssImg}></img>
+          <img src={nssImg} alt="NSS Logo"></img>
           <h4>Member</h4>
           <h5>Aug 2016 - Apr 2019</h5>
         </div>

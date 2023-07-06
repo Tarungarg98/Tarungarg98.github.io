@@ -17,7 +17,7 @@ const Certificates = () => {
             href="https://www.coursera.org/account/accomplishments/specialization/QQ6YSCUQ7A6H"
             target="_blank"
           >
-            <img src={nlp_img}></img>
+            <img src={nlp_img} alt="NLP Specialization"></img>
           </a>
         </div>
         <div class="col">
@@ -25,7 +25,10 @@ const Certificates = () => {
             href="https://www.coursera.org/account/accomplishments/specialization/M3YXH4QVP7DC"
             target="_blank"
           >
-            <img src={deep_learning_img}></img>
+            <img
+              src={deep_learning_img}
+              alt="Deep Learning Specialization"
+            ></img>
           </a>
         </div>
         <div class="col">
@@ -33,7 +36,7 @@ const Certificates = () => {
             href="https://www.coursera.org/account/accomplishments/specialization/EPYDJB2KLV6R"
             target="_blank"
           >
-            <img src={tensorflow_img}></img>
+            <img src={tensorflow_img} alt="Tensorflow Specialization"></img>
           </a>
         </div>
         <div class="col">
@@ -41,7 +44,7 @@ const Certificates = () => {
             href="https://www.coursera.org/account/accomplishments/records/ANMCUMCPPYD8"
             target="_blank"
           >
-            <img src={machine_learning_img}></img>
+            <img src={machine_learning_img} alt="Machine Learning"></img>
           </a>
         </div>
         <div class="col">
@@ -49,7 +52,7 @@ const Certificates = () => {
             href="https://coursera.org/share/558d091161ad935020239da513625caf"
             target="_blank"
           >
-            <img src={react_img}></img>
+            <img src={react_img} alt="React JS"></img>
           </a>
         </div>
       </div>

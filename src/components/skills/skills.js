@@ -37,7 +37,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className="col-md-2 skills_img">
-          <img src={skill_img}></img>
+          <img src={skill_img} alt="Skills Logo"></img>
         </div>
         <div className="col-md-3">
           <h3>Soft Skills</h3>
