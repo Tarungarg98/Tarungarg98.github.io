@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.47345b5b.css",
-    "main.js": "/static/js/main.cf571b9b.js",
+    "main.css": "/static/css/main.e86222f5.css",
+    "main.js": "/static/js/main.723ca752.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/c2b_inventory.png": "/static/media/c2b_inventory.9952a45d5b3b50a3191d.png",
     "static/media/deep_learning.png": "/static/media/deep_learning.1341d36d416fe845559c.png",
@@ -9,10 +9,9 @@
     "static/media/react.png": "/static/media/react.91d558c3212ffed13748.png",
     "static/media/tensorflow.png": "/static/media/tensorflow.0c993ede34bd8676a2bb.png",
     "static/media/machine_learning.png": "/static/media/machine_learning.082c5be9452607140a8e.png",
-    "static/media/tarun3.png": "/static/media/tarun3.492100839aa16424922f.png",
+    "static/media/tarun.png": "/static/media/tarun.492100839aa16424922f.png",
     "static/media/BITS.png": "/static/media/BITS.64007813fee1e36b92fc.png",
     "static/media/walmart.png": "/static/media/walmart.129fa64a92c9790f52dc.png",
-    "static/media/tarun1.jpg": "/static/media/tarun1.c8c0d6d38f5948cc807c.jpg",
     "static/media/mhsg1.png": "/static/media/mhsg1.4a58fb5028c991d3b7e3.png",
     "static/media/skill.png": "/static/media/skill.15386150cfb967245195.png",
     "static/media/aiisc.png": "/static/media/aiisc.099a332e30da60a1f7f5.png",
@@ -27,12 +26,12 @@
     "static/media/rookie.png": "/static/media/rookie.780d4688f2eb39f4aebb.png",
     "static/media/linkedin.png": "/static/media/linkedin.e422a7a6be1a6a0b7cad.png",
     "index.html": "/index.html",
-    "main.47345b5b.css.map": "/static/css/main.47345b5b.css.map",
-    "main.cf571b9b.js.map": "/static/js/main.cf571b9b.js.map",
+    "main.e86222f5.css.map": "/static/css/main.e86222f5.css.map",
+    "main.723ca752.js.map": "/static/js/main.723ca752.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47345b5b.css",
-    "static/js/main.cf571b9b.js"
+    "static/css/main.e86222f5.css",
+    "static/js/main.723ca752.js"
   ]
 }
