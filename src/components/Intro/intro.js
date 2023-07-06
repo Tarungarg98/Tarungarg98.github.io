@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import tarun_img from "./images/tarun1.jpg";
 import github_img from "./images/github.png";
 import resume_img from "./images/resume.png";
 import email_img from "./images/email.png";
