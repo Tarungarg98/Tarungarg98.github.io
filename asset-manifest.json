@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e86222f5.css",
-    "main.js": "/static/js/main.1511382d.js",
+    "main.js": "/static/js/main.f257bb4c.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/c2b_inventory.png": "/static/media/c2b_inventory.9952a45d5b3b50a3191d.png",
     "static/media/deep_learning.png": "/static/media/deep_learning.1341d36d416fe845559c.png",
@@ -18,20 +18,20 @@
     "static/media/nss.png": "/static/media/nss.f53d6346f6d852ac0a8c.png",
     "static/media/email.png": "/static/media/email.506e976b1e1b4ad1c518.png",
     "static/media/kec.png": "/static/media/kec.8ec750fb2dbbb5ca3a15.png",
-    "static/media/resume.png": "/static/media/resume.6221e529b3f85b90b3d9.png",
     "static/media/github.png": "/static/media/github.a72664b0a0209018e576.png",
     "static/media/aus.png": "/static/media/aus.a33abcf4afe6151fd81d.png",
     "static/media/cars24.png": "/static/media/cars24.1c2f44af68cbf943f9f9.png",
     "static/media/99roomz.png": "/static/media/99roomz.f72901e9dcf6b6a50886.png",
     "static/media/rookie.png": "/static/media/rookie.780d4688f2eb39f4aebb.png",
     "static/media/linkedin.png": "/static/media/linkedin.e422a7a6be1a6a0b7cad.png",
+    "static/media/resume.png": "/static/media/resume.25b93c42c7bb2298d147.png",
     "index.html": "/index.html",
     "main.e86222f5.css.map": "/static/css/main.e86222f5.css.map",
-    "main.1511382d.js.map": "/static/js/main.1511382d.js.map",
+    "main.f257bb4c.js.map": "/static/js/main.f257bb4c.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e86222f5.css",
-    "static/js/main.1511382d.js"
+    "static/js/main.f257bb4c.js"
   ]
 }
