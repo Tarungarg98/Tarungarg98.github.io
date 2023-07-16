@@ -21,7 +21,8 @@ const Project = (props) => {
           Expand_project(props.name);
         }}
       >
-        {props.name}
+        {" "}
+        > {props.name}
       </button>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <div className="project-description content">{props.description}</div>
