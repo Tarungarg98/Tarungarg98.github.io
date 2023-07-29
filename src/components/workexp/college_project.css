@@ -35,21 +35,6 @@
   text-align: left;
 }
 
-.project {
-  text-align: justify;
-}
-
-.project-title {
-  background-color: rgba(72, 3, 84, 0);
-  font-size: 20px;
-  border: none;
-  text-align: left;
-}
-
-.project-title:hover {
-  text-decoration: underline;
-}
-
 .college_project .topic_head {
   font-weight: 500;
   font-size: large;

@@ -1,8 +1,34 @@
 import React from "react";
-import Project from "./project_template";
 import "./college_project.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
+import accordion_styles from "./accordion_styles.module.css";
+import chevronDown from "./chevron-down.svg";
+// ### Add GA4 for click
+const AccordionItem = ({ header, ...rest }) => (
+  <Item
+    {...rest}
+    header={
+      <>
+        {header}
+        <img
+          className={accordion_styles.chevron}
+          src={chevronDown}
+          alt="Chevron Down"
+        />
+      </>
+    }
+    className={accordion_styles.item}
+    buttonProps={{
+      className: ({ isEnter }) =>
+        `${accordion_styles.itemBtn} ${
+          isEnter && accordion_styles.itemBtnExpanded
+        }`,
+    }}
+    contentProps={{ className: accordion_styles.itemContent }}
+    panelProps={{ className: accordion_styles.itemPanel }}
+  />
+);
 const CollegeProjects = (props) => {
   return (
     <div className="college_project">
@@ -17,17 +43,15 @@ const CollegeProjects = (props) => {
         <div className="col-md-9 details">
           <br></br>
           <div className="description">
-            <ul>
-              {props.projects.map((project) => (
-                <li>
-                  <Project
-                    id={project.id}
-                    name={project.name}
-                    description={project.description}
-                  />
-                </li>
-              ))}
-            </ul>
+            <div className={accordion_styles.accordion}>
+              <Accordion>
+                {props.projects.map((project) => (
+                  <AccordionItem header={project.name}>
+                    {project.description}
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </div>
           </div>
         </div>
       </div>

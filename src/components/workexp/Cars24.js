@@ -235,6 +235,14 @@ const Cars24 = () => {
         target="_blank"
       >
         Atish Jain
+      </a>
+      ,{" "}
+      <a
+        href="https://www.linkedin.com/in/prathmesh-gargava-0ab5a821/"
+        title="Prathmesh Gargava"
+        target="_blank"
+      >
+        Prathmesh Gargava
       </a>{" "}
       and{" "}
       <a

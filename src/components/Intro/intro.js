@@ -26,19 +26,19 @@ const IntroPage = () => {
             <h2 className="typewriter">Data Scientist @ Cars24</h2>
           </div>
           <div className="about_me fade-in-left-to-right">
-            Welcome to my personal website! I'm a passionate data scientist with
-            expertise in leveraging data-driven insights to solve complex
-            business challenges. With experience in natural language processing,
-            anomaly detection, and fraud modeling, I excel at applying advanced
-            machine learning techniques to extract valuable insights from data.
-            Throughout my career, I have worked with renowned organizations,
-            collaborating with exceptional mentors and contributing to impactful
-            projects. I am driven by a passion for continuous learning and a
-            desire to make a positive impact through innovative data-driven
-            solutions. Feel free to explore my website to learn more about my
-            projects, expertise, and achievements. I'm open to new opportunities
-            and collaborations, so let's connect and create something
-            extraordinary together in the world of data science.
+            Welcome to my personal website! I am a passionate data scientist
+            with expertise in leveraging data-driven insights to solve complex
+            business challenges. Having experience in natural language
+            processing, anomaly detection, and fraud modeling, I excel at
+            applying advanced machine learning techniques to extract valuable
+            insights from data. With a proven track record of collaborating with
+            exceptional mentors and contributing to impactful projects in
+            renowned organizations, I am constantly driven by a passion for
+            continuous learning. My goal is to make a positive impact through
+            innovative data-driven solutions. Feel free to explore my website to
+            learn more about my projects, expertise, and achievements. I am open
+            to new opportunities and collaborations, so let's connect and create
+            something extraordinary together in the world of data science.
           </div>
         </div>
         {/* <button class="blog_url" onClick={changeView}>

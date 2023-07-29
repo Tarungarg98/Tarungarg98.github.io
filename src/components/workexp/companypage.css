@@ -40,21 +40,6 @@
   color: green;
 }
 
-.project {
-  text-align: justify;
-}
-
-.project-title {
-  background-color: rgba(72, 3, 84, 0);
-  font-size: 20px;
-  border: none;
-  text-align: left;
-}
-
-.project-title:hover {
-  text-decoration: underline;
-}
-
 .number {
   background: rgba(72, 3, 84, 0.5);
   padding-top: 20px;
@@ -67,4 +52,10 @@
 .companypage .topic_head {
   font-weight: 500;
   font-size: large;
+}
+
+.description img {
+  width: 20px;
+  margin-right: 0;
+  padding: 0;
 }

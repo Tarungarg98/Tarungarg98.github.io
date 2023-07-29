@@ -1,7 +1,36 @@
 import React from "react";
-import Project from "./project_template";
 import "./companypage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
+import accordion_styles from "./accordion_styles.module.css";
+import chevronDown from "./chevron-down.svg";
+/**
+ * @type {React.ExoticComponent<import('@szhsin/react-accordion').AccordionItemProps>}
+ */
+const AccordionItem = ({ header, ...rest }) => (
+  <Item
+    {...rest}
+    header={
+      <>
+        {header}
+        <img
+          className={accordion_styles.chevron}
+          src={chevronDown}
+          alt="Chevron Down"
+        />
+      </>
+    }
+    className={accordion_styles.item}
+    buttonProps={{
+      className: ({ isEnter }) =>
+        `${accordion_styles.itemBtn} ${
+          isEnter && accordion_styles.itemBtnExpanded
+        }`,
+    }}
+    contentProps={{ className: accordion_styles.itemContent }}
+    panelProps={{ className: accordion_styles.itemPanel }}
+  />
+);
 
 const CompanyPage = (props) => {
   return (
@@ -18,17 +47,15 @@ const CompanyPage = (props) => {
           <div className="brief">{props.brief}</div>
           <br></br>
           <div className="description">
-            <ul>
-              {props.projects.map((project) => (
-                <li>
-                  <Project
-                    id={project.id}
-                    name={project.name}
-                    description={project.description}
-                  />
-                </li>
-              ))}
-            </ul>
+            <div className={accordion_styles.accordion}>
+              <Accordion>
+                {props.projects.map((project) => (
+                  <AccordionItem header={project.name}>
+                    {project.description}
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </div>
           </div>
         </div>
       </div>
