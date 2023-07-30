@@ -34,7 +34,7 @@ const Cars24 = () => {
             Additionally, rule flags, correlated with past cancellations, are
             implemented to trigger dealer advance tokens. Retraining the model
             and regular modifications to fraud identification measures have
-            reduced the cancellation rate from 18% to 10%.
+            reduced the cancellation rate from <b>18% to 10%</b>.
           </p>
           <div class="topic_head">Scope for Improvements</div>
           <p>
