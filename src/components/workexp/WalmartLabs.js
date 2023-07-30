@@ -11,67 +11,44 @@ const WalmartLabs = () => {
         <div class="container">
           <div class="topic_head">Objective</div>
           <p>
-            The Power Consumption Anomaly Detection Project at Walmart Labs
-            aimed to detect abnormal power flow and raise alerts in case of
-            significant variations in power consumption. The project's goal was
-            to minimize power breakdowns, power cuts, and short circuits, which
-            could lead to financial losses and disrupt operations in offices,
-            industries, and showrooms.
+            Walmart Labs' Power Consumption Anomaly Detection Project aimed to
+            detect abnormal power flow and alert on significant variations to
+            prevent financial losses and operational disruptions.
           </p>
           <div class="topic_head">Working Mechanism</div>
           <p>
-            The project utilized a live and interactive user interface designed
-            using Dash-plotly. Input parameters related to power consumption
-            were passed to the model, which predicted power consumption and
-            generated a graph along with any detected anomalies. The user
-            interface displayed current and previous faults, allowing users to
-            visualize graphs and input parameters to understand the causes of
-            faults effectively.
+            The project used Dash-plotly for a user-friendly interface,
+            predicting power consumption and finding anomalies anomalies. It
+            displayed graphs and faults to understand causes effectively.
+            Anomalies were categorized when actual values fell outside the 95%
+            confidence interval of the predicted value.
           </p>
           <div class="topic_head">Development Process</div>
           <p>
-            The model was developed using unsupervised learning techniques. The
-            provided dataset included temperature, dewpoint, day of the week,
-            hour of the day, meter name, store number, and actual power
-            consumption in kWh. Exploratory data analysis and time series
-            analysis were performed to gain insights into the data. However, as
-            the data did not exhibit significant seasonal or trend components,
-            Artificial Neural Networks (ANN) were chosen for further analysis.
+            Dataset contained temperature, dewpoint, day of the week, hour of
+            the day, meter name, store number, and actual power consumption in
+            kWh. Exploratory data analysis and time series analysis provided
+            insights. The data did not exhibit significant seasonal or trend
+            components, thus Artificial Neural Network (ANN) was chosen for
+            further development.
           </p>
           <p>
-            For ANN, day of the week and hour of the day were encoded using
-            one-hot encoding. The dataset consisted of 97,568 records for the
-            Dehumidifier Meter across six different stores. Data cleaning was
-            conducted by removing values that were either zero or lying above
-            the mean plus two times the standard deviation. The dataset was
-            shuffled, and then split into a training set (80%), validation set
-            (10%), and testing set (10%).
-          </p>
-          <p>
-            The ANN model, comprising a single hidden layer with a linear output
-            layer, was trained using power consumption as the output variable.
-            The Adam optimizer with mean squared error as the cost function was
-            employed, with a batch size of 32. Early stopping was implemented to
-            prevent overfitting. The front-end was designed using Dash-plotly to
-            display the model results through graphs. Anomalies were categorized
-            as instances where the actual value lay outside the 95% confidence
-            interval of the predicted value.
+            The dataset had 97,568 records for the Dehumidifier Meter across six
+            stores. Data cleaning involved removing zero and extreme values
+            lying beyond 2*standard deviation. Day of the week and hour of the
+            day were one-hot encoded. Data was split into train, test and oot
+            (80:10:10). The ANN model with a linear output and mse as the cost
+            function, was trained using power consumption as the output
+            variable.
           </p>
           <div class="topic_head">Impact and Scope for Improvement</div>
           <p>
-            Although the project successfully developed a model for power
-            consumption anomaly detection, its implementation and impact were
-            not realized during the course of the project. However, the model
-            has the potential to provide substantial benefits to Walmart Labs by
-            minimizing power-related disruptions and financial losses. Future
-            efforts could focus on integrating the developed model into the
-            company's existing power management systems, conducting real-time
-            monitoring, and refining the anomaly detection algorithms for
-            enhanced accuracy. Additionally, exploring the incorporation of
-            other data sources and advanced techniques, such as ensemble
-            learning or recurrent neural networks, could further improve the
-            model's performance and contribute to more efficient power
-            management within Walmart Labs.
+            The project has potential benefits to provide substantial benefits
+            by minimizing power-related disruptions and financial losses. Future
+            work involves integrating it into power management systems, refining
+            anomaly detection algorithms, and exploring advanced techniques like
+            ensemble learning and recurrent neural networks for more efficient
+            power management at Walmart Labs.
           </p>
         </div>
       ),
@@ -79,12 +56,10 @@ const WalmartLabs = () => {
   ];
   const brief = (
     <div>
-      Working for MNC on a large-scale project has been an exceptional
-      opportunity for professional growth. I had the privilege of contributing
-      to the company's efforts in detecting anomaly power consumption in Walmart
-      stores through the application of various approaches and machine learning
-      (ML) models. During this project, I received invaluable guidance and
-      mentorship from{" "}
+      Working on a large-scale project at an MNC has been a remarkable
+      opportunity for professional growth. I contributed to detecting anomaly
+      power consumption in Walmart stores using diverse ML models and
+      approaches. Mentorship from{" "}
       <a
         href="https://www.linkedin.com/in/ritish-menon/"
         title="Ritish Menon"
@@ -100,11 +75,9 @@ const WalmartLabs = () => {
       >
         Mainak Mitra
       </a>{" "}
-      who played crucial roles in my development. I am proud to have made a
-      meaningful impact on the company's operations by leveraging ML techniques
-      to identify and address abnormal power consumption patterns. This
-      experience has further solidified my passion for utilizing data-driven
-      approaches to drive efficiency and optimize resource utilization.
+      were invaluable for driving this. Making meaningful impact on the
+      company's operations, optimizing resource utilization with ML techniques,
+      solidified my passion for data-driven approaches to drive efficiency.
     </div>
   );
   return (

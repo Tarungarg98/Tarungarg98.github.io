@@ -11,7 +11,7 @@ const Education = () => {
       <div className="row">
         <div className="col-md-4">
           <img src={bits_img} alt="BITS Logo"></img>
-          <h3 className="fade-in-left-to-right">BITS Pilani</h3>
+          <h3>BITS Pilani</h3>
           <h4>July 2016 - May 2021</h4>
         </div>
         <div className="col-md-8 content">
@@ -23,14 +23,11 @@ const Education = () => {
           <div className="brief">
             Studying at prestigious BITS Pilani, was an amazing enviroment for
             all-round development. Thanks to 0% attendance policy, you get
-            enough chance to explore your interests at the same time, you can
-            study at your own pace. I utilized this oportuntity to build my
-            career in Data Science through various online course and projects
-            with college professors. I managed to secure multiple internships in
-            Data Science and with my strong skills, I managed to leave a strong
-            impact in all my projects. My parents, family, colleagues,
-            professors all were very supportive throughout for an excellent
-            growing opportunity during my college.
+            enough chance to explore your interests and study at your own pace.
+            I utilized this oportuntity to build my career in Data Science
+            through various online course and projects with college professors.
+            I managed to secure multiple internships in Data Science and
+            delivered effetively with my strong skill set.
           </div>
         </div>
       </div>

@@ -41,7 +41,6 @@ const CollegeProjects = (props) => {
           </div>
         </div>
         <div className="col-md-9 details">
-          <br></br>
           <div className="description">
             <div className={accordion_styles.accordion}>
               <Accordion>

@@ -12,7 +12,7 @@
     text-align: justify;
   }
   .education img {
-    max-width: 200px;
+    max-width: 130px;
   }
 }
 
@@ -34,8 +34,4 @@
 }
 .education {
   background: rgba(54, 162, 54, 0.1); /*  40% opaque green */
-}
-.education .fade-in-left-to-right {
-  animation-delay: 0s;
-  animation: fade-in-left-to-right 3s ease-in-out infinite;
 }

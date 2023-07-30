@@ -12,38 +12,31 @@ const SI_99ROOMZ = () => {
         <div class="container">
           <div class="topic_head">Objective</div>
           <p>
-            The project focused on designing a model to extract positive and
-            negative amenities from hotel reviews and provide an overall rating
-            based on the reviews. When booking a hotel, people often spend a
-            significant amount of time reading through reviews to make an
-            informed decision. However, the abundance of reviews with varying
-            sentiments can make it tedious to identify specific amenities and
-            their associated sentiment. The goal of the project was to develop a
-            model that would analyze hotel reviews, extract the mentioned
-            amenities, classify them as positive or negative, and generate an
-            overall rating for the hotel based on the reviews.
+            The project aimed to develop a model that extracts positive and
+            negative amenities from hotel reviews and generates an overall
+            rating based on these reviews. By analyzing the sentiments expressed
+            in reviews, the model assists users in making informed decisions
+            while booking hotels.
           </p>
           <div class="topic_head">Working Mechanism</div>
           <p>
-            The project followed a multi-step process to achieve its objectives.
-            Initially, a CSV file containing hotel reviews was provided. To
-            ensure unbiased predictions, hotels with fewer than 10 reviews were
-            removed from the dataset. The reviews were then preprocessed by
-            splitting them into sentences using PunktSentenceTokenizer and
-            converting the text to lowercase. Each sentence was analyzed for
-            sentiment using the SentimentIntensityAnalyzer. The words in each
-            sentence were tokenized and lemmatized. If a word was identified as
-            an amenity, it was stored as a positive or negative amenity for the
-            hotel based on the sentiment polarity. To identify amenities, the
-            words were tagged using a pre-trained model. For each hotel, the
-            frequency of positive and negative amenities was calculated and
-            stored as amenity scores. Overlapping words between positive and
-            negative amenities were updated with the frequency difference.
-            Amenities with an average frequency below 0.2 or above 0.95 were
-            removed to avoid bias. The remaining words were categorized as
-            positive or negative amenities.
+            The project follows a multi-step process to analyze hotel reviews. A
+            CSV file containing hotel reviews is provided, and to ensure
+            unbiased predictions, hotels with fewer than 10 reviews are excluded
+            from the dataset.The reviews undergo preprocessing, involving
+            sentence splitting with PunktSentenceTokenizer and converting the
+            text to lowercase. Sentiment analysis is then performed on each
+            sentence using the SentimentIntensityAnalyzer. The words are
+            tokenized and lemmatized, and amenities are identified using a
+            pre-trained model. The entities are tagged as positive or negative
+            based on the sentiment polarity. The frequency of positive and
+            negative amenities for each hotel is calculated, resulting in
+            amenity scores. Overlapping words between positive and negative
+            amenities are updated with the frequency difference. To avoid bias,
+            amenities with an average frequency below 0.2 or above 0.95 are
+            removed, leaving behind positively and negatively categorized
+            amenities.
           </p>
-          <div class="topic_head">Development Process</div>
           <div className="row number" align="center">
             <div className="col-sm">
               <strong>188969</strong>
@@ -61,46 +54,34 @@ const SI_99ROOMZ = () => {
               Accuracy
             </div>
           </div>
+          <div class="topic_head">Development Process</div>
           <p>
-            The project utilized a dataset consisting of reviews for various
-            hotels, totaling 188,969 reviews. To ensure that only English
-            reviews were considered, a language detector based on SpaCy was used
-            to filter out non-English reviews. TextBlob was employed to correct
-            any spelling errors in the reviews. Each review was then split into
-            sentences using PunktSentenceTokenizer and tokenized using NLTK's
-            word tokenizer. The words were further tagged using NLTK's Part of
-            Speech tagger, and if a word was identified as a noun, it was
-            stemmed, lemmatized, and added to the features vocabulary.
-            Otherwise, it was added to the non-features dictionary. Only reviews
-            containing feature words were passed through TfidfVectorizer. The
-            tf-idf scores for each word were accumulated, and the top 5% of
-            words were categorized as amenities, while the rest were labeled as
-            non-amenities. These words were then stored in a file for model
-            training. The model employed Stanford-ner-tagger to create a custom
-            Part of Speech tagging system. It was trained on 1,140,478 words
-            with two labels, namely features and others. This model was then
-            used to label new words as amenities or non-amenities, achieving an
-            accuracy of 94%.
+            The project began by curating a dataset of hotel reviews, totaling
+            188,969 entries. To ensure language consistency, a language detector
+            based on SpaCy was utilized to exclude non-English reviews, TextBlob
+            was used to correct any spelling errors present in the reviews. The
+            reviews were then segmented into sentences and tokenized using
+            NLTK's tools. Employing NLTK's Part of Speech tagger, nouns were
+            identified, stemmed, and lemmatized to form the features vocabulary.
+            Non-feature words were categorized separately. Utilizing
+            TfidfVectorizer, only reviews containing feature words were
+            processed, and tf-idf scores were accumulated. The top 5% of words
+            were labeled as amenities, while the rest were designated as
+            non-amenities. The model was further improved with the use of
+            Stanford-ner-tagger, creating a custom Part of Speech tagging
+            system. This model achieved an impressive 94% accuracy in labeling
+            new words as amenities or non-amenities, ultimately enhancing the
+            project's performance and impact.
           </p>
           <div class="topic_head">Scope for improvements</div>
           <p>
-            There is significant potential for future improvements, particularly
-            with more accurate data tagging. Exploring and experimenting with
-            other machine learning algorithms and newer NLP algorithms can
-            potentially improve the model's accuracy and performance.
-            Additionally, incorporating user feedback and integrating it into
-            the model training process can enhance the model's effectiveness in
-            capturing user preferences and sentiments. As new NLP techniques and
-            algorithms emerge, it would be beneficial to evaluate their
-            applicability to further enhance the project's capabilities.
-            Continuous updates and improvements to the model can ensure its
-            relevance and effectiveness in the ever-evolving domain of hotel
+            Future improvements hold tremendous promise, refining data tagging
+            for enhanced accuracy, delving into alternative machine learning
+            algorithms and cutting-edge NLP techniques can potentially boost the
+            model's performance. Introducing user feedback and incorporating it
+            into the model training process can better capture model, we can
+            ensure its relevance and efficacy in the dynamic realm of hotel
             reviews analysis.
-          </p>
-          <div class="topic_head">Team</div>
-          <p>
-            This project was designed during my Summer Internship at 99 roomz in
-            2019 along with Arpit Jadiya, Manish Sharma and Spandan Singh.
           </p>
         </div>
       ),
@@ -112,30 +93,26 @@ const SI_99ROOMZ = () => {
         <div class="container">
           <div class="topic_head">Objective</div>
           <p>
-            Lokly - Indian Address Parser is a project specifically designed to
-            address the challenges of parsing Indian addresses, which often
-            contain valuable information about consumer buying and spending
-            habits. The project aims to provide an effective solution for
-            parsing free-flowing Indian address strings and extracting relevant
-            address components such as house number, street type, street name,
-            unit, zip code, state, country, city, and more. Additionally, Lokly
-            aims to incorporate neighborhood intelligence to offer insights into
-            the economic value associated with addresses.
+            Lokly is an Indian Address Parser project tailored to tackle the
+            complexities of parsing Indian addresses. It efficiently extracts
+            crucial address components like house number, street name, zip code,
+            state, country, and more from free-flowing address strings. Beyond
+            parsing, Lokly aims to incorporate neighborhood intelligence,
+            revealing insights into the economic value of addresses, and
+            providing valuable information about consumer buying and spending
+            habits.
           </p>
           <div class="topic_head">Working Mechanism</div>
           <p>
-            To utilize Lokly - Indian Address Parser, users can visit the Lokly
-            website where they can input the address they wish to parse. The
-            website is hosted on an AWS EC2 instance and provides a
-            user-friendly interface. The address parsing functionality is
-            implemented in the backend, where the input address is processed
-            using an API. The backend system leverages machine learning
-            algorithms and natural language processing techniques to analyze the
-            address and extract its individual components. The parsed address
-            components are then returned to the user in a JSON format through
-            the frontend interface.
+            Users can easily utilize Lokly by visiting the website (soon to be
+            integrated here), which offers a user-friendly interface. The
+            backend system utilizizing powerful machine learning algorithms and
+            natural language processing techniques to analyze the address and
+            extract its relevant components is hosted using flask API, with
+            HTML, CSS for front-end. The parsed address components are then
+            efficiently delivered to the user in a convenient JSON format
+            through the frontend interface.
           </p>
-          <div class="topic_head">Development Process</div>
           <div className="row number" align="center">
             <div className="col-sm">
               <strong>13,000</strong>
@@ -153,40 +130,27 @@ const SI_99ROOMZ = () => {
               Accuracy
             </div>
           </div>
+          <div class="topic_head">Development Process</div>
           <p>
-            The development of Lokly - Indian Address Parser involved several
-            key steps. A dataset comprising Indian addresses was collected and
-            used for training and testing the system. The project utilized the
-            Stanford-ner-tagger, a powerful tool for Part of Speech tagging, to
-            develop a custom tagging model specifically tailored for Indian
-            addresses. The data preprocessing phase involved removing
-            punctuation and converting all words to lowercase to ensure
-            consistency. The addresses were then tagged with relevant labels
-            using the trained model. The front-end of the Lokly website was
-            built using Flask, HTML, and CSS to create an intuitive user
-            interface. The entire system was deployed on an AWS EC2 cloud
-            storage platform for accessibility and scalability.
-          </p>
-          <p>
-            During the development process, a total of 102,082 words were
-            tagged, covering approximately 13,000 Indian addresses. The accuracy
-            achieved by the Lokly - Indian Address Parser model was 83%,
-            reflecting its effectiveness in extracting address components from
-            free-flowing address strings.
+            The development of Lokly involved several key steps. A dataset
+            comprising Indian addresses was provided, data preprocessing
+            involved removing punctuation and converting all words to lowercase
+            for consistency. To develop a custom tagging model specifically
+            tailored for Indian addresses, the project utilized the powerful
+            Stanford-ner-tagger for Part of Speech tagging. Throughout the
+            development process, a total of 102,082 words were tagged, covering
+            approximately 13,000 Indian addresses. Impressively, the Lokly -
+            Indian Address Parser model achieved an accuracy of 83%, showcasing
+            its effectiveness in extracting address components from free-flowing
+            address strings.
           </p>
           <div class="topic_head">Scope for improvements?</div>
           <p>
-            There is immense potential for further improvements in Lokly -
-            Indian Address Parser. Enhancing the accuracy of data tagging
-            through more comprehensive training datasets and advanced machine
-            learning algorithms can significantly improve the system's
-            performance. Additionally, exploring newer NLP techniques and
-            algorithms can help address complex address parsing scenarios and
-            handle a wider range of address formats and variations. By
-            continually refining the model and incorporating cutting-edge
-            approaches, Lokly - Indian Address Parser can provide even more
-            accurate and reliable results, facilitating various applications
-            that rely on parsed Indian addresses.
+            Lokly has vast potential for improvements. Enhancing data tagging
+            accuracy with better datasets and advanced algorithms can boost
+            performance. Exploring newer NLP techniques can handle diverse
+            address formats. Continuous refinement will make Lokly more valuable
+            for businesses and users, meeting evolving needs in data analysis.
           </p>
         </div>
       ),

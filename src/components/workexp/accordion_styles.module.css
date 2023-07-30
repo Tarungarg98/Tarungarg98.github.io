@@ -29,6 +29,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 1rem;
+  /* padding-left: 0.5rem; */
   font-size: 1rem;
   text-align: left;
   color: #040404;
@@ -49,7 +50,7 @@ body {
 }
 
 .itemPanel {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .chevron {

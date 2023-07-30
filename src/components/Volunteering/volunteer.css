@@ -7,17 +7,20 @@
   .volunteering .brief {
     text-align: justify;
     width: 70%;
-    /* margin-right: 10%; */
   }
 
   .volunteering img {
-    max-width: 35%;
-    max-height: 70%;
+    max-width: 40%;
+    max-height: 65%;
+    padding-bottom: 5%;
   }
 
   hr {
     width: 90%;
     margin-left: 5%;
+  }
+  .volunteering h5 {
+    margin-bottom: -30px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -32,7 +35,8 @@
   }
 
   .volunteering img {
-    width: 60vw;
+    width: 40vw;
+    padding-bottom: 2%;
   }
 
   hr {
@@ -42,4 +46,11 @@
 }
 .volunteering {
   background: rgba(197, 146, 69, 0.1); /*  40% opaque green */
+}
+.volunteering h4 {
+  color: #800000;
+}
+
+.volunteering h5 {
+  color: rgb(106, 143, 46);
 }

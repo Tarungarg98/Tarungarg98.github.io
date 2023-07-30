@@ -45,7 +45,6 @@ const CompanyPage = (props) => {
           <h3 className="designation">{props.designation}</h3>
           <h4 className="duration">{props.duration}</h4>
           <div className="brief">{props.brief}</div>
-          <br></br>
           <div className="description">
             <div className={accordion_styles.accordion}>
               <Accordion>

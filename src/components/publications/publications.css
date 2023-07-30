@@ -6,6 +6,7 @@
 .publications .abstract {
   padding: 10px;
   text-align: justify;
+  display: none;
 }
 
 .publications a {

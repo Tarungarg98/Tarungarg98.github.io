@@ -5,7 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -41,13 +41,12 @@
 }
 
 .number {
-  background: rgba(72, 3, 84, 0.5);
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .number:hover {
-  font-size: 230%;
+  font-size: 25px;
 }
 .companypage .topic_head {
   font-weight: 500;
