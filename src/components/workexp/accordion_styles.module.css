@@ -21,20 +21,33 @@ body {
 .item {
   border-bottom: 1px solid #ccc;
 }
-
 .itemBtn {
   cursor: pointer;
   display: flex;
   align-items: center;
   width: 100%;
   margin: 0;
-  padding: 1rem;
-  /* padding-left: 0.5rem; */
   font-size: 1rem;
   text-align: left;
   color: #040404;
   background-color: transparent;
   border: none;
+}
+@media screen and (min-width: 768px) {
+  .itemBtn {
+    padding: 1rem;
+  }
+  .itemPanel {
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .itemBtn {
+    padding: 0.75rem;
+  }
+  .itemPanel {
+    padding: 0.25rem;
+  }
 }
 
 .itemBtn:hover {
@@ -47,10 +60,6 @@ body {
 
 .itemContent {
   transition: height 0.25s cubic-bezier(0, 0, 0, 1);
-}
-
-.itemPanel {
-  padding: 0.5rem;
 }
 
 .chevron {
