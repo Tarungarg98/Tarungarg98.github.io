@@ -93,9 +93,7 @@
   padding: 0;
 }
 .myname {
-  /* font-family: bradley hand, cursive; */
-  /* font-family: Lucida Handwriting, cursive; */
-  font-family: segoe-script, cursive;
+  font-family: "Times New Roman", serif;
   margin-bottom: 0;
   letter-spacing: 0.1em; /* Adjust as needed */
 }
