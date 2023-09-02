@@ -31,7 +31,7 @@
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing 1.5s steps(40, end) forwards;
+  animation: typing 1s steps(40, end) forwards;
   animation-delay: 0s;
   width: 0; /* Set initial width to zero */
   display: inline-block;
@@ -53,6 +53,6 @@
   opacity: 0;
   mask-size: 200% 100%;
   mask-image: linear-gradient(to left, transparent 50%, black 50%);
-  animation: fade-in-left-to-right 3s ease-in-out forwards;
-  animation-delay: 3s;
+  animation: fade-in-left-to-right 2s ease-in-out forwards;
+  animation-delay: 2.5s;
 }
