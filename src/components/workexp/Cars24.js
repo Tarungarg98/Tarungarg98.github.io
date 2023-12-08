@@ -47,6 +47,53 @@ const Cars24 = () => {
       ),
     },
     {
+      id: "Dynamic Auction",
+      name: "Dynamic Auction",
+      description: (
+        <div class="container">
+          <div class="topic_head">Objective</div>
+          <p>
+            The objective of this project is to implement a bidding system that
+            adjusts dynamically based on historical bidding patterns. The
+            primary goal is to set dynamic anchors for the auction process and
+            continually revise these anchors according to the observed behaviors
+            and participation patterns of bidders. This in turn will help
+            reducing the number of reauctions, getting quality bids and in turn,
+            increasing the Deal Conversion.
+          </p>
+          <div class="topic_head">Working Mechanism</div>
+          <p>
+            The working mechanism involves analyzing historical bidding data to
+            establish initial anchor points for auctions. These anchor points
+            are dynamic, adapting to previous bidding patterns and behaviors.
+            Additionally, the system continually monitors auction participation
+            behaviors, bidder activity, and responses to the set anchors. Based
+            on these observations, it revises and updates the anchor points to
+            optimize the auction process dynamically.
+          </p>
+          <div class="topic_head">Development Process</div>
+          <p>
+            The development process began by gathering historical bidding data
+            and conducting an in-depth analysis to identify patterns and trends.
+            Algorithms were developed to establish initial anchor points based
+            on this historical data. Subsequently, a real-time monitoring system
+            was implemented to observe bidder behaviors during live auctions.
+            This system was integrated to dynamically adjust the anchor points
+            based on real-time participation data, ensuring continual
+            optimization of the auction process. The API is deployed over Google
+            Kubernetes Engine (GKE) which is self-scalable to manage the load.
+          </p>
+          <div class="topic_head">Scope for Improvements</div>
+          <p>
+            Enhancements could include refining the algorithms used to analyze
+            historical data for better pattern recognition. We do plan to
+            incorporate addition vehicle details to set the initial and revision
+            factors at a much granular level.
+          </p>
+        </div>
+      ),
+    },
+    {
       id: "Australia Pricing Module",
       name: "Australia Pricing Module",
       description: (
