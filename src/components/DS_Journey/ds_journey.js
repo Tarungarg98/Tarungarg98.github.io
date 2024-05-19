@@ -1,18 +1,19 @@
 import React, { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import "./ds_journey.css";
 import { AppContext } from "../../context/AppContext";
 
 const DS_Journey = () => {
   const { dispatch } = useContext(AppContext);
 
+  let navigate = useNavigate();
   const changeView = () => {
-    dispatch({
-      type: "SHOW_BLOG",
-    });
+    navigate("/", { replace: false });
   };
   return (
     <div className="ds_journey" id="Blog_DS_Journey">
-      <button onClick={changeView}>Back</button>
+      <h1 align="center">Data Science Career Roadmap</h1>
+      <br></br>
       <p>
         Hi, myself Tarun Garg, a 2021 graduate from BITS Pilani Hyderabad
         Campus, currently working as a Data Scientist @ Cars24. Like every other
@@ -36,20 +37,20 @@ const DS_Journey = () => {
         them, instead use it as the motivation to improve yourself.
       </p>
       <p>
-        After designing that game, I kept on exploring python further and had
-        some deep dives on various ML concepts with practical experience. I got
-        an opportunity to work with a prof on-campus on an image processing
+        After designing that game, I kept on exploring python further and deep
+        dived on various ML concepts with practical experience. I got an
+        opportunity to work with a professor on-campus on an image processing
         project. It was my first hands-on project. After that, I managed to grab
         an off-campus SI in the NLP domain. There I worked on 2 awesome
-        projects, which are my best so far. Next, I worked on another project
-        with the college prof which is under review for publication. I also
-        worked as a Data Science Intern at Walmart Labs. By that time, I had
-        decided that I want to pursue a career in Data Science. Further, I did a
-        yearlong remote thesis at the AI Institute, University of South
-        Carolina. I chose to do a thesis because I wanted to explore research,
-        and I didn’t want to go for an SDE PS2. After having hard luck in
-        placements for the DS job, I managed to grab an off-campus opportunity
-        at Cars24 as a Junior Data Scientist.
+        projects, which were my best among multiple internships. Next, I worked
+        on another project with the college professor which is published in a
+        Journal. I also worked as a Data Science Intern at Walmart Labs. By that
+        time, I had decided that I want to pursue a career in Data Science.
+        Further, I did a yearlong remote thesis at the AI Institute, University
+        of South Carolina. I chose to do a thesis because I wanted to explore
+        research, and I didn’t want to go for an SDE PS2. After having hard luck
+        in placements for the DS job, I managed to grab an off-campus
+        opportunity at Cars24 as a Junior Data Scientist.
       </p>
       <h4>Why I chose DS as my career option ?</h4>
       <p>
@@ -58,7 +59,7 @@ const DS_Journey = () => {
         can visualize the data, understand it and then make decisions according
         to it. Competitive coding was tough for me and I wasn’t fascinated by it
         either. Getting a career in DS is equally challenging, but it is about
-        where your passion lies. I am enjoying my current work, and I see a
+        where your passion lies. I am enjoying my current work, and I see
         considerable growth potential for me in the Data Science field.
       </p>
       <h4>What is it like to work as a Data Scientist?</h4>
@@ -75,53 +76,68 @@ const DS_Journey = () => {
       </p>
       <p>
         At Walmart Labs, I worked on Anomaly Detection in Power Consumption
-        across various Walmart Stores. We were provided with the input and
-        output parameters. First, I conducted Time Series Analysis and then
-        trained a Neural Network over it. The results were showcased as a POC
-        designed using dash and plotly.
+        across various Walmart Stores. There, I conducted Time Series Analysis
+        and then trained a Neural Network over it. The results were showcased as
+        a POC designed using dash and plotly.
       </p>
       <p>
         At AIISC, I got a chance to deep dive into Knowledge Graphs and Natural
         Language Processing. I spent a reasonable amount of time reading about
         the ongoing research and their business use. I worked on a project using
-        Knowledge Graphs and Language Models, which is currently under
-        manuscript preparation.
+        Knowledge Graphs and Language Models, which is published in IEEE
+        conference.
       </p>
       <p>
-        My work as a Data Scientist at Cars24 revolves around Fraud Detection. I
-        am working on predicting dealers behaviour in auctions using historical
-        data and other details about dealers. The tech stack revolves around
-        python and basic SQL. This is my first experience working with large
-        data, so optimizing the algorithms is essential.
+        My work as a Data Scientist at Cars24 primarily revolved around Fraud
+        Detection. In this project I worked on predicting fraudulent patterns in
+        a transaction using historical data of dealers data, auction patters and
+        seller - dealer collusion. This was my first experience working with
+        large data, so optimizing the algorithms was essential. Currently I am
+        working on Auction Efficiency. The tech stack revolves primarily around
+        Python and SQL.
       </p>
       <p>
-        Remember one thing, DS is not the same as ML/AI. In DS, we primarily
+        Remember one thing, DS is not the same as ML/DL. In DS, we primarily
         work with data (using Dataframe, dictionaries and all), cleaning data,
         preparing pipeline, historical analysis, and ML models as a part. You
-        will rarely work on complex ML models. If you seek to work on the
+        might not always work on complex ML models. If you seek to work on the
         research side, then thesis / RAship / higher studies would be a better
         option. But don’t jump to conclusions directly, instead take the
         experience of both the business and research side through internships.
+        <p>
+          While working as a experienced professional, your job isn’t just about
+          handling data and training models. Rather, you own projects, you talk
+          with stakeholders, pitch your ideas, handle the pushbacks and deliver
+          the optimized products. Inter-team and intra-team conversations, both
+          play a crucial role as you grow in your career. To all Data Scientists
+          in the initial stages of the career, I would highly recommended to
+          take full ownership of your projects, be part of your project meetings
+          with other stakeholders. After a couple of years of experience, try
+          mentoring interns / freshers within your team, you can do so
+          informally too. These exercises will help you grow as a true
+          professional. Remember, to not be just a manager, but a leader, who
+          empowers people around them.
+        </p>
       </p>
       <h4>How to get DS projects/internships/jobs?</h4>
       <p>
         For on-campus projects, most of the departments need AI/ML at some
         places. So you can take up an informal project under such faculties or
         take a formal interdisciplinary project. I started my DS career with
-        projects under a campus Prof. You need to have basic technical skills
-        and should be able to draft an approach on how you can help them solve a
-        particular problem.
+        projects under a campus Professor. You need to have basic technical
+        skills and should be able to draft an approach on how you can help them
+        solve a particular problem.
       </p>
       <p>
         For internships, especially in DS, you are generally provided with an
-        assignment followed by a round of interviews. So far, there hadn’t been
-        many companies for DS on campus for SI. So my experiences are for
-        off-campus opportunities. In the assignment and interviews, your
-        approach matters more than your results. You may get 90%+ accuracy with
-        your results, but if you can’t explain the approach in-depth, the
-        interviewer will not be impressed. They don’t care about your results,
-        they want to gauge your aptitude skills. They want to know how
-        analytical you can be from a business perspective. Don’t just try to
+        assignment followed by a round of interviews. During my time, there
+        wasn’t many companies for DS on campus for Summer Internship. So my
+        experiences are for off-campus opportunities. In the assignment and
+        interviews, your approach matters more than your results. You may get
+        90%+ accuracy with your results, but if you can’t explain the approach
+        in-depth, the interviewer will not be impressed. They don’t care about
+        your results, they want to gauge your aptitude skills. They want to know
+        how analytical you can be from a business perspective. Don’t just try to
         tell your answer to the interviewer, rather continuously interact with
         them about your findings. They do provide valuable tips to solve the
         given problem. Suppose you are provided with a problem statement. You
@@ -146,7 +162,7 @@ const DS_Journey = () => {
         exposure. If you already have a job offer through SI/Placements then I
         would definitely suggest you explore research by opting for a thesis. It
         takes effort to get a good thesis but it is worth the effort. You learn
-        a lot during the application process and during the internship.
+        a lot during the application process and during the thesis.
       </p>
       <p>
         Try to get maximum exposure during college by doing internships,
@@ -172,7 +188,7 @@ const DS_Journey = () => {
         algorithms and good DS projects on your profile with technical depth
         over them. For ML research, have more focus on the research aspects,
         model architecture and all. For corporate, have more focus on business
-        outcome. They don’t care much about what you did. They want to you know
+        outcomes. They don’t care much about what you did. They want to you know
         that how vital asset were you to the organization. After that, they will
         deep dive into the technical depth of your projects. Interviewers used
         to ask me to choose any one of the projects mentioned in my resume. They
@@ -196,6 +212,9 @@ const DS_Journey = () => {
         you work hard, things will align your way, and no career option is
         difficult. Thanks for reading, good luck with your future.
       </p>
+      <center>
+        <button onClick={changeView}>Home</button>
+      </center>
     </div>
   );
 };

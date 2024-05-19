@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import github_img from "./images/github.png";
 import resume_img from "./images/resume.png";
 import email_img from "./images/email.png";
@@ -6,15 +6,9 @@ import linkedin_img from "./images/linkedin.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./intro.css";
 
-import { AppContext } from "../../context/AppContext";
-
 const IntroPage = () => {
-  const { dispatch } = useContext(AppContext);
-
   const changeView = () => {
-    dispatch({
-      type: "SHOW_BLOG",
-    });
+    window.open("/data-science-journey/", "_blank");
   };
   return (
     <div>
@@ -31,20 +25,23 @@ const IntroPage = () => {
             challenges. With expertise in natural language processing, anomaly
             detection, and fraud modeling, I excel at applying advanced machine
             learning techniques to extract valuable insights. With a proven
-            track record of collaborating with exceptional mentors and
-            contributing to impactful projects in renowned organizations, I am
-            driven by a passion for continuous learning. Explore my website to
-            learn more about my projects, expertise, and achievements. Let's
-            connect and create something extraordinary together in the world of
-            data science.
+            track record of collaborating with exceptional mentors, mentoring my
+            juniors and contributing to impactful projects in renowned
+            organizations, I am driven by a passion for continuous learning.
+            Explore my website to learn more about my projects, expertise, and
+            achievements. Let's connect and create something extraordinary
+            together in the world of data science.
+            <br></br>
+            <center>
+              <button class="blog_url" onClick={changeView}>
+                Click here to check out my Data Science Journey
+              </button>
+            </center>
           </div>
         </div>
-        {/* <button class="blog_url" onClick={changeView}>
-          Click here to check out my Data Science Journey
-        </button> */}
         <div className="icon">
           <a
-            href="https://drive.google.com/file/d/1Mdv1OSIuPaHuFCK637n77w1bpdYWZIVG/view"
+            href="https://drive.google.com/file/d/1KZuAwK3G_uOe_JY8quUhza_rsdpc9j3r/"
             target="_blank"
             title="Resume"
           >

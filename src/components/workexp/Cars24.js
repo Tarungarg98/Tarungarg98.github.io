@@ -27,21 +27,29 @@ const Cars24 = () => {
           </p>
           <div class="topic_head">Development Process</div>
           <p>
-            Data is fetched from using SQL queries, python is extensively used
-            to process the data and build the feature engineering pipeline.
-            Exploratory Data Analysis evaluates the features and ensures data
-            integrity. XGBoost trained model is deployed as a flask API on AWS.
-            Additionally, rule flags, correlated with past cancellations, are
-            implemented to trigger dealer advance tokens. Retraining the model
-            and regular modifications to fraud identification measures have
-            reduced the cancellation rate from <b>18% to 10%</b>.
+            The development process begins with data fetching using SQL queries.
+            Python is extensively used to process the data and build the feature
+            engineering pipeline. Exploratory Data Analysis (EDA) is performed
+            to evaluate the features and ensure data integrity. The XGBoost
+            model is trained and deployed as a Flask API on AWS. Additionally,
+            rule flags, which are correlated with past cancellations, are
+            implemented to trigger dealer advance tokens.
+          </p>
+          <p>
+            Regular model retraining and updates to fraud identification
+            measures have reduced the cancellation rate from <b>18% to 8%</b>.
+            In the latest retraining, survivorship bias was addressed by
+            including cases in the training data that were blocked by the
+            existing fraud model. We achieved an AUC of 80% by including new
+            features and retaining information from the previous model.
           </p>
           <div class="topic_head">Scope for Improvements</div>
           <p>
-            We aim to detect evolving fraudulent patterns and address
-            survivorship bias in model retraining. Incorporating lost deal data
-            due to the previous model's interference and deploying a CatBoost
-            model for categorical data might enhance performance.
+            We aim to continously detect evolving fraudulent patterns and
+            address survivorship bias in model retraining. Incorporating lost
+            deal data due to the previous model's interference and deploying a
+            CatBoost model for capturing categorical data efficiently might
+            enhance performance.
           </p>
         </div>
       ),
@@ -55,11 +63,11 @@ const Cars24 = () => {
           <p>
             The objective of this project is to implement a bidding system that
             adjusts dynamically based on historical bidding patterns. The
-            primary goal is to set dynamic anchors for the auction process and
-            continually revise these anchors according to the observed behaviors
-            and participation patterns of bidders. This in turn will help
-            reducing the number of reauctions, getting quality bids and in turn,
-            increasing the Deal Conversion.
+            primary goal is to set dynamic anchors and dynamic durations for the
+            auction process and continually revise these anchors according to
+            the observed behaviors and participation patterns of bidders. This
+            in turn will help reducing the number of reauctions, getting quality
+            bids and in turn, increasing the Deal Conversion.
           </p>
           <div class="topic_head">Working Mechanism</div>
           <p>
@@ -89,6 +97,51 @@ const Cars24 = () => {
             historical data for better pattern recognition. We do plan to
             incorporate addition vehicle details to set the initial and revision
             factors at a much granular level.
+          </p>
+        </div>
+      ),
+    },
+    {
+      id: "Franchise OCB",
+      name: "Franchise OCB",
+      description: (
+        <div class="container">
+          <div class="topic_head">Objective</div>
+          <p>
+            The objective of this project is to develop a system that enables
+            Cars24 franchises to effectively utilize the Cars24 platform for car
+            conversions, facilitating business scale-up for both the franchises
+            and Cars24.
+          </p>
+          <div class="topic_head">Working Mechanism</div>
+          <p>
+            For a deal, franchises are first allowed to purchase cars for
+            themselves. If they choose not to procure the cars, they can use the
+            Cars24 platform to sell them to other dealers onboarded on the
+            platform. They are provided with acceptance probability slabs for
+            different price points, allowing them to negotiate with sellers and
+            initiate a one-click-buy on our platform.
+          </p>
+          <div class="topic_head">Development Process</div>
+          <p>
+            The development process began by utilizing historical conversion
+            data and conducting an in-depth analysis to identify patterns and
+            trends. While data from existing stores was available, we mapped it
+            to align with new franchise stores for optimal results. Conversion
+            probabilities for cars at different price levels were calculated and
+            distributed into slabs for very low acceptance, low acceptance,
+            medium acceptance, and high acceptance through custom-defined logic.
+            This system dynamically adjusts price points based on real-time
+            participation data, ensuring continual optimization of the auction
+            process. The API is deployed on Google Kubernetes Engine (GKE),
+            which is self-scalable to manage the load.
+          </p>
+          <div class="topic_head">Scope for Improvements</div>
+          <p>
+            Enhancements could include refining the algorithms used to analyze
+            historical data for better pattern recognition. We plan to
+            incorporate anctual franchise bidding data to set the price range
+            and factors at a much more optimal level.
           </p>
         </div>
       ),
@@ -214,9 +267,9 @@ const Cars24 = () => {
       >
         Naresh Mehta
       </a>
-      . Currently, I'm involved in retraining an updated version of the model
-      for enhanced effectiveness. I also gained exposure to Pricing for
-      Australia Module and Stuck Inventory Liquidation, expanding my skill set.{" "}
+      . Currently, I'm involved in aution efficiency to enhance conversions. I
+      also gained exposure to Fraud Detection, Pricing for Australia Module and
+      Stuck Inventory Liquidation, expanding my skill set.{" "}
       <a href="#awards">Recognitions</a> from the organization validate my
       dedication, and I'm proud of the positive impact I've made.
       {/* , I actively collaborated with my colleagues{" "}

@@ -86,11 +86,12 @@
 }
 
 .intro_page .blog_url {
+  text-decoration: underline;
   border: none;
   background: none;
   cursor: pointer;
   margin: 0;
-  padding: 0;
+  padding-top: 2%;
 }
 .myname {
   font-family: "Times New Roman", serif;

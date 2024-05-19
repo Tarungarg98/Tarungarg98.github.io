@@ -3,16 +3,6 @@ import React, { createContext, useReducer } from "react";
 // 5. The reducer - this is used to update the state, based on the action
 export const AppReducer = (state, action) => {
   switch (action.type) {
-    case "SHOW_BLOG":
-      action.type = "DONE";
-      if (state.show_blog === 1) {
-        state.show_blog = 0;
-      } else {
-        state.show_blog = 1;
-      }
-      return {
-        ...state,
-      };
     case "SHOW_SIDEBAR":
       action.type = "DONE";
       if (state.show_sidebar === 1) {
@@ -31,7 +21,6 @@ export const AppReducer = (state, action) => {
 
 // 1. Sets the initial state when the app loads
 const initialState = {
-  show_blog: 0,
   show_sidebar: 0,
 };
 
@@ -46,7 +35,6 @@ export const AppProvider = (props) => {
   return (
     <AppContext.Provider
       value={{
-        show_blog: state.show_blog,
         show_sidebar: state.show_sidebar,
         dispatch,
       }}
