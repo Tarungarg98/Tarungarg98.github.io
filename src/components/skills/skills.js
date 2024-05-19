@@ -17,10 +17,8 @@ const Skills = () => {
             <li>React.js</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>R</li>
-            <li>Stata</li>
-            <li>C++</li>
-            <li>Adobe Photoshop</li>
+            <li>GCP / AWS</li>
+            <li>Google Kubernetes Engine</li>
           </ul>
         </div>
         <div className="col-md-3">
@@ -60,7 +58,7 @@ const Skills = () => {
             <li>Docker</li>
             <li>Pandas</li>
             <li>Object Oriented Programming</li>
-            <li>Matplolib</li>
+            <li>Matplotlib</li>
             <li>Flask</li>
             <li>Plotly</li>
           </ul>

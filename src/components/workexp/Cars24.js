@@ -40,8 +40,8 @@ const Cars24 = () => {
             measures have reduced the cancellation rate from <b>18% to 8%</b>.
             In the latest retraining, survivorship bias was addressed by
             including cases in the training data that were blocked by the
-            existing fraud model. We achieved an AUC of 80% by including new
-            features and retaining information from the previous model.
+            existing fraud model. We achieved an <b>AUC of 80%</b> by including
+            new features and retaining information from the previous model.
           </p>
           <div class="topic_head">Scope for Improvements</div>
           <p>
@@ -118,9 +118,10 @@ const Cars24 = () => {
             For a deal, franchises are first allowed to purchase cars for
             themselves. If they choose not to procure the cars, they can use the
             Cars24 platform to sell them to other dealers onboarded on the
-            platform. They are provided with acceptance probability slabs for
-            different price points, allowing them to negotiate with sellers and
-            initiate a one-click-buy on our platform.
+            platform. They are provided with{" "}
+            <b>acceptance probability slabs for different price points</b>,
+            allowing them to negotiate with sellers and initiate a one-click-buy
+            on our platform.
           </p>
           <div class="topic_head">Development Process</div>
           <p>

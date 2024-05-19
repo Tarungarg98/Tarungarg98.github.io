@@ -17,24 +17,26 @@ const DS_Journey = () => {
       <p>
         Hi, myself Tarun Garg, a 2021 graduate from BITS Pilani Hyderabad
         Campus, currently working as a Data Scientist @ Cars24. Like every other
-        dualite, I joined BITS with the hope of getting CS as a dual degree.
-        Since the beginning, I have been interested in the IT sector, having a
-        strong base with Informatics Practices as my 5th Subject in 11/12.
+        dualite, I joined BITS with the hope of getting Compute Science as a
+        dual degree. Since the beginning, I have been interested in the IT
+        sector, having a strong base with Informatics Practices as my 5th
+        Subject in 11/12.
       </p>
       <p>
         In 1st year I scored well in CP (10 grade point) but couldn’t perform
-        well in other subjects. Unfortunately, grades do matter, and I wasn’t
-        even close to getting CS as my dual. Not happy with it, unsure about the
+        well in other subjects. Unfortunately, grades do matter, and I couldn’t
+        get Compute Science as my dual. Not happy with it, unsure about the
         future, I spent my 2nd year relatively unproductively.
       </p>
       <h4>My journey in Data Science</h4>
       <p>
-        During my PS1, I started with Python (not as a PS project), explored
-        various libraries. The first thing I developed using python was a game
-        (thanks to a friend who pushed me into this and made sure that I am
-        learning something every day). It does work, if you have a friend/family
-        member who can push you beyond your comfort zone, then don’t disappoint
-        them, instead use it as the motivation to improve yourself.
+        During my PS1 (Summer Intern), I started with Python (not as a PS
+        project), explored various libraries. The first thing I developed using
+        python was a game (thanks to a friend who pushed me into this and made
+        sure that I am learning something every day). It does work, if you have
+        a friend/family member who can push you beyond your comfort zone, then
+        don’t disappoint them, instead use it as the motivation to improve
+        yourself.
       </p>
       <p>
         After designing that game, I kept on exploring python further and deep
@@ -43,7 +45,7 @@ const DS_Journey = () => {
         project. It was my first hands-on project. After that, I managed to grab
         an off-campus SI in the NLP domain. There I worked on 2 awesome
         projects, which were my best among multiple internships. Next, I worked
-        on another project with the college professor which is published in a
+        on another pro ject with the college professor which is published in a
         Journal. I also worked as a Data Science Intern at Walmart Labs. By that
         time, I had decided that I want to pursue a career in Data Science.
         Further, I did a yearlong remote thesis at the AI Institute, University
