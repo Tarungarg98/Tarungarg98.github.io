@@ -30,7 +30,7 @@ const App = () => {
           <Link to="/">
             <div></div>
           </Link>
-          <Link to="/data-science-journey/">
+          <Link to="/data-science-journey">
             <div></div>
           </Link>
 
