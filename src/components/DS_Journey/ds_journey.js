@@ -1,11 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./ds_journey.css";
-import { AppContext } from "../../context/AppContext";
 
 const DS_Journey = () => {
-  const { dispatch } = useContext(AppContext);
-
   let navigate = useNavigate();
   const changeView = () => {
     navigate("/", { replace: false });
@@ -23,10 +20,19 @@ const DS_Journey = () => {
         Subject in 11/12.
       </p>
       <p>
-        In 1st year I scored well in CP (10 grade point) but couldn’t perform
-        well in other subjects. Unfortunately, grades do matter, and I couldn’t
-        get Compute Science as my dual. Not happy with it, unsure about the
-        future, I spent my 2nd year relatively unproductively.
+        In 1st year I scored well in Computer Programming (10 grade point) but
+        couldn’t perform well in other subjects. Unfortunately, grades do
+        matter, and I couldn’t get Compute Science as my dual. Not happy with
+        it, unsure about the future, I spent my 2nd year relatively
+        unproductively.
+      </p>
+      <p>
+        Check out my Podcast where I shared practical advice for those aspiring
+        to enter the world of Data Science. Whether you're a student just
+        starting out or a recent graduate looking to embark on your career, I
+        offered insights on how to get started, the essential skills to develop,
+        and the best resources to utilize.{" "}
+        <a href="https://www.youtube.com/watch?v=tOtusupNC8E">Link</a>
       </p>
       <h4>My journey in Data Science</h4>
       <p>
