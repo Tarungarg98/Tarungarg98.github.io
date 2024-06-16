@@ -238,7 +238,7 @@ const Cars24 = () => {
       contributed to the Fraud Model, identifying crucial fraudulent patterns
       and collaborated with a skilled team under mentorship of{" "}
       <a
-        href="https://www.linkedin.com/in/pankaj-porwal-7b120929/"
+        href="https://www.linkedin.com/in/pankaj-kumar-porwal-7b120929/"
         title="Pankaj Porwal"
         target="_blank"
       >
