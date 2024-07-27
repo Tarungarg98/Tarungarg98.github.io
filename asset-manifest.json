@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0dd6956.css",
-    "main.js": "/static/js/main.bdbc9a77.js",
+    "main.css": "/static/css/main.cda3136d.css",
+    "main.js": "/static/js/main.84a52ea7.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/c2b_inventory.png": "/static/media/c2b_inventory.9952a45d5b3b50a3191d.png",
     "static/media/deep_learning.png": "/static/media/deep_learning.1341d36d416fe845559c.png",
@@ -9,8 +9,8 @@
     "static/media/react.png": "/static/media/react.91d558c3212ffed13748.png",
     "static/media/tensorflow.png": "/static/media/tensorflow.0c993ede34bd8676a2bb.png",
     "static/media/machine_learning.png": "/static/media/machine_learning.082c5be9452607140a8e.png",
-    "static/media/tarun.png": "/static/media/tarun.492100839aa16424922f.png",
     "static/media/BITS.png": "/static/media/BITS.64007813fee1e36b92fc.png",
+    "static/media/tarun.png": "/static/media/tarun.9e8ccb7bce21ca68489a.png",
     "static/media/walmart.png": "/static/media/walmart.129fa64a92c9790f52dc.png",
     "static/media/mhsg1.png": "/static/media/mhsg1.4a58fb5028c991d3b7e3.png",
     "static/media/skill.png": "/static/media/skill.15386150cfb967245195.png",
@@ -21,18 +21,19 @@
     "static/media/github.png": "/static/media/github.a72664b0a0209018e576.png",
     "static/media/aus.png": "/static/media/aus.a33abcf4afe6151fd81d.png",
     "static/media/cars24.png": "/static/media/cars24.1c2f44af68cbf943f9f9.png",
+    "static/media/ecom_express.png": "/static/media/ecom_express.05e4844fc63ee5b6c228.png",
     "static/media/99roomz.png": "/static/media/99roomz.f72901e9dcf6b6a50886.png",
     "static/media/rookie.png": "/static/media/rookie.780d4688f2eb39f4aebb.png",
     "static/media/linkedin.png": "/static/media/linkedin.e422a7a6be1a6a0b7cad.png",
     "static/media/resume.png": "/static/media/resume.25b93c42c7bb2298d147.png",
     "index.html": "/index.html",
     "static/media/chevron-down.svg": "/static/media/chevron-down.aa2889a5642566f604439b0fe4c25dbc.svg",
-    "main.e0dd6956.css.map": "/static/css/main.e0dd6956.css.map",
-    "main.bdbc9a77.js.map": "/static/js/main.bdbc9a77.js.map",
+    "main.cda3136d.css.map": "/static/css/main.cda3136d.css.map",
+    "main.84a52ea7.js.map": "/static/js/main.84a52ea7.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0dd6956.css",
-    "static/js/main.bdbc9a77.js"
+    "static/css/main.cda3136d.css",
+    "static/js/main.84a52ea7.js"
   ]
 }
