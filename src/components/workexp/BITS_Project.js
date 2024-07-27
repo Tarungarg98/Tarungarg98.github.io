@@ -117,7 +117,7 @@ const BITS_Project = () => {
   const prof_name = (
     <div>
       <a href="https://www.linkedin.com/in/santanu-prasad-datta-29a983109/">
-        Guided by : Dr. Santanu Prasad Datta
+        {"Guided by : Dr. Santanu Prasad Datta"}
       </a>
     </div>
   );

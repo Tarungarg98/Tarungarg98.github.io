@@ -47,10 +47,10 @@
     position: relative;
   }
   .intro_page h2 {
-    margin-left: 20%;
+    margin-left: 15%;
   }
   .typewriter {
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
   }
 }
 

@@ -17,7 +17,7 @@ const IntroPage = () => {
           <div className="myname">
             <h1 className="typewriter">Hi, I'm Tarun Garg</h1>
             <br></br>
-            <h2 className="typewriter">Data Scientist @ Cars24</h2>
+            <h2 className="typewriter">Data Scientist 2 @ Ecom Express</h2>
           </div>
           <div className="about_me fade-in-left-to-right">
             Welcome to my personal website! I'm a passionate data scientist,

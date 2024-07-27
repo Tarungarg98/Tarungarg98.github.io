@@ -3,6 +3,7 @@ import SI_99ROOMZ from "./99roomz";
 import KEC_INTERNATIONAL from "./KEC_International";
 import AIISC from "./AIISC";
 import Cars24 from "./Cars24";
+import EcomExpress from "./EcomExpress";
 import BITS_Project from "./BITS_Project";
 import "./workexp.css";
 
@@ -11,6 +12,8 @@ function WorkExp() {
     <div>
       <div className="workexp" id="workexp">
         <h1>Work Experience</h1>
+        <hr></hr>
+        <EcomExpress />
         <hr></hr>
         <Cars24 />
         <hr></hr>

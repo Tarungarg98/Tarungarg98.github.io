@@ -238,7 +238,7 @@ const Cars24 = () => {
       contributed to the Fraud Model, identifying crucial fraudulent patterns
       and collaborated with a skilled team under mentorship of{" "}
       <a
-        href="https://www.linkedin.com/in/pankaj-porwal-7b120929/"
+        href="https://www.linkedin.com/in/pankaj-kumar-porwal-7b120929/"
         title="Pankaj Porwal"
         target="_blank"
       >
@@ -268,7 +268,7 @@ const Cars24 = () => {
       >
         Naresh Mehta
       </a>
-      . Currently, I'm involved in aution efficiency to enhance conversions. I
+      . Additionally, I was involved in aution efficiency to enhance conversions. I
       also gained exposure to Fraud Detection, Pricing for Australia Module and
       Stuck Inventory Liquidation, expanding my skill set.{" "}
       <a href="#awards">Recognitions</a> from the organization validate my
@@ -329,7 +329,7 @@ const Cars24 = () => {
       <CompanyPage
         companyname="Cars24"
         designation="Data Scientist"
-        duration="May 2021 - Present"
+        duration="May 2021 - June 2024"
         brief={brief}
         image={cars24_img}
         projects={projects}
