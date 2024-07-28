@@ -13,10 +13,10 @@ const DS_Journey = () => {
       <br></br>
       <p>
         Hi, myself Tarun Garg, a 2021 graduate from BITS Pilani Hyderabad
-        Campus, currently working as a Data Scientist @ Cars24. Like every other
-        dualite, I joined BITS with the hope of getting Compute Science as a
-        dual degree. Since the beginning, I have been interested in the IT
-        sector, having a strong base with Informatics Practices as my 5th
+        Campus, currently working as a Data Scientist 2 @ Ecom Express. Like
+        every other dualite, I joined BITS with the hope of getting Compute
+        Science as a dual degree. Since the beginning, I have been interested in
+        the IT sector, having a strong base with Informatics Practices as my 5th
         Subject in 11/12.
       </p>
       <p>
@@ -100,7 +100,7 @@ const DS_Journey = () => {
         Detection. In this project I worked on predicting fraudulent patterns in
         a transaction using historical data of dealers data, auction patters and
         seller - dealer collusion. This was my first experience working with
-        large data, so optimizing the algorithms was essential. Currently I am
+        large data, so optimizing the algorithms was essential. Recently I am
         working on Auction Efficiency. The tech stack revolves primarily around
         Python and SQL.
       </p>
