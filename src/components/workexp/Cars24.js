@@ -55,94 +55,51 @@ const Cars24 = () => {
       ),
     },
     {
-      id: "Dynamic Auction",
-      name: "Dynamic Auction",
+      id: "Dynamic Auction & Franchise OCB Integration",
+      name: "Dynamic Auction & Franchise OCB Integration",
       description: (
         <div class="container">
           <div class="topic_head">Objective</div>
           <p>
-            The objective of this project is to implement a bidding system that
-            adjusts dynamically based on historical bidding patterns. The
-            primary goal is to set dynamic anchors and dynamic durations for the
-            auction process and continually revise these anchors according to
-            the observed behaviors and participation patterns of bidders. This
-            in turn will help reducing the number of reauctions, getting quality
-            bids and in turn, increasing the Deal Conversion.
+            The project aims to develop an integrated bidding and conversion
+            system for Cars24 franchises that dynamically adjusts auction
+            anchors and durations based on historical bidding patterns. It also
+            allows franchises to utilize the Cars24 platform to purchase or sell
+            cars to other dealers, improving deal conversions and scaling
+            business for both the franchises and Cars24.
           </p>
           <div class="topic_head">Working Mechanism</div>
           <p>
-            The working mechanism involves analyzing historical bidding data to
-            establish initial anchor points for auctions. These anchor points
-            are dynamic, adapting to previous bidding patterns and behaviors.
-            Additionally, the system continually monitors auction participation
-            behaviors, bidder activity, and responses to the set anchors. Based
-            on these observations, it revises and updates the anchor points to
-            optimize the auction process dynamically.
+            The system begins by analyzing historical bidding data to establish
+            dynamic anchor points for auctions, which adapt based on bidder
+            behaviors and participation patterns. Additionally, franchises can
+            either purchase cars themselves or use the platform to sell cars to
+            other onboarded dealers. The system provides acceptance probability
+            slabs at different price points, enabling optimized negotiation and
+            seamless transactions. Real-time monitoring of bidder activity
+            dynamically revises anchor points to ensure continual auction
+            process optimization, while acceptance probabilities guide franchise
+            sales.
           </p>
           <div class="topic_head">Development Process</div>
           <p>
-            The development process began by gathering historical bidding data
-            and conducting an in-depth analysis to identify patterns and trends.
-            Algorithms were developed to establish initial anchor points based
-            on this historical data. Subsequently, a real-time monitoring system
-            was implemented to observe bidder behaviors during live auctions.
-            This system was integrated to dynamically adjust the anchor points
-            based on real-time participation data, ensuring continual
-            optimization of the auction process. The API is deployed over Google
-            Kubernetes Engine (GKE) which is self-scalable to manage the load.
+            The development process involved analyzing historical bidding and
+            conversion data to identify key patterns and trends. Algorithms were
+            developed to set initial anchor points and acceptance probability
+            slabs based on historical trends. The system dynamically adjusts
+            these points in real-time during live auctions and franchise
+            transactions, based on observed behaviors. Both systems are deployed
+            on Google Kubernetes Engine (GKE), which is self-scalable to handle
+            varying loads, ensuring optimized performance during both auctions
+            and franchise transactions.
           </p>
           <div class="topic_head">Scope for Improvements</div>
           <p>
-            Enhancements could include refining the algorithms used to analyze
-            historical data for better pattern recognition. We do plan to
-            incorporate addition vehicle details to set the initial and revision
-            factors at a much granular level.
-          </p>
-        </div>
-      ),
-    },
-    {
-      id: "Franchise OCB",
-      name: "Franchise OCB",
-      description: (
-        <div class="container">
-          <div class="topic_head">Objective</div>
-          <p>
-            The objective of this project is to develop a system that enables
-            Cars24 franchises to effectively utilize the Cars24 platform for car
-            conversions, facilitating business scale-up for both the franchises
-            and Cars24.
-          </p>
-          <div class="topic_head">Working Mechanism</div>
-          <p>
-            For a deal, franchises are first allowed to purchase cars for
-            themselves. If they choose not to procure the cars, they can use the
-            Cars24 platform to sell them to other dealers onboarded on the
-            platform. They are provided with{" "}
-            <b>acceptance probability slabs for different price points</b>,
-            allowing them to negotiate with sellers and initiate a one-click-buy
-            on our platform.
-          </p>
-          <div class="topic_head">Development Process</div>
-          <p>
-            The development process began by utilizing historical conversion
-            data and conducting an in-depth analysis to identify patterns and
-            trends. While data from existing stores was available, we mapped it
-            to align with new franchise stores for optimal results. Conversion
-            probabilities for cars at different price levels were calculated and
-            distributed into slabs for very low acceptance, low acceptance,
-            medium acceptance, and high acceptance through custom-defined logic.
-            This system dynamically adjusts price points based on real-time
-            participation data, ensuring continual optimization of the auction
-            process. The API is deployed on Google Kubernetes Engine (GKE),
-            which is self-scalable to manage the load.
-          </p>
-          <div class="topic_head">Scope for Improvements</div>
-          <p>
-            Enhancements could include refining the algorithms used to analyze
-            historical data for better pattern recognition. We plan to
-            incorporate anctual franchise bidding data to set the price range
-            and factors at a much more optimal level.
+            Improvements can be made by refining the algorithms to enhance
+            pattern recognition and accuracy in dynamic pricing adjustments.
+            Incorporating granular vehicle details and franchise-specific
+            bidding data will allow for more precise initial price points and
+            further optimize the dynamic revision process.
           </p>
         </div>
       ),
@@ -268,9 +225,9 @@ const Cars24 = () => {
       >
         Naresh Mehta
       </a>
-      . Additionally, I was involved in aution efficiency to enhance conversions. I
-      also gained exposure to Fraud Detection, Pricing for Australia Module and
-      Stuck Inventory Liquidation, expanding my skill set.{" "}
+      . Additionally, I was involved in aution efficiency to enhance
+      conversions. I also gained exposure to Fraud Detection, Pricing for
+      Australia Module and Stuck Inventory Liquidation, expanding my skill set.{" "}
       <a href="#awards">Recognitions</a> from the organization validate my
       dedication, and I'm proud of the positive impact I've made.
       {/* , I actively collaborated with my colleagues{" "}
