@@ -6,6 +6,50 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const EcomExpress = () => {
   const projects = [
     {
+      id: "Geotag Validation System for Delivery Accuracy",
+      name: "Geotag Validation System for Delivery Accuracy",
+      description: (
+        <div class="container">
+          <div class="topic_head">Objective</div>
+          <p>
+            To develop and implement a geotag validation system that ensures
+            delivery accuracy by analyzing the reliability of location data
+            captured at the point of delivery, enhancing operational efficiency
+            and customer satisfaction at Ecom Express.
+          </p>
+          <div class="topic_head">Working Mechanism</div>
+          <p>
+            The delivery pattern of field executives is analyzed using
+            historical data to identify typical routes and behaviors. Various
+            parameters, such as distance from the intended delivery location and
+            timing, are assessed to evaluate the likelihood of a geotag being
+            inaccurately punched. This analysis helps flag potentially incorrect
+            deliveries for further review. Using this mechanism, we are able to
+            tag 80% of the delivery geocodes as good.
+          </p>
+          <div class="topic_head">Development Process</div>
+          <p>
+            The development process involved calculating key metrics for each
+            field executive, such as the time difference (timedelta) and
+            distance change (distance delta) from the previous delivery.
+            Additionally, the distance from the distribution center and the time
+            of delivery were factored in. These parameters, combined with our
+            address intelligence algorithms, were used to classify each geocode
+            as either good or bad, helping to ensure accurate delivery data and
+            improve operational efficiency.
+          </p>
+          <div class="topic_head">Scope for Improvements</div>
+          <p>
+            The system can be improved by fine-tuning the parameters to account
+            for edge cases such as unusual delivery routes or remote areas.
+            Enhancing the accuracy of the address intelligence can reduce false
+            positives. Additionally, incorporating feedback loops from delivery
+            agents could help in refining the tagging mechanism.
+          </p>
+        </div>
+      ),
+    },
+    {
       id: "Identifying Geo Codes for an Address",
       name: "Identifying Geo Codes for an Address",
       description: (
@@ -22,7 +66,8 @@ const EcomExpress = () => {
             previously recorded in the system, historical delivery geocodes are
             used to predict the most accurate geocode and error radius. For new
             addresses, a custom Address GPT model trained with H3 Cells is used
-            to predict geocodes with high accuracy.
+            to predict geocodes with high accuracy. Achieved 85% accuracy, with
+            true results falling within the desired error radius.
           </p>
           <div class="topic_head">Development Process</div>
           <p>
@@ -50,49 +95,6 @@ const EcomExpress = () => {
             to enhance the quality of the historical data used for predictions.
             Additionally, clustering techniques could be introduced to improve
             the efficiency and accuracy of geocode prediction.
-          </p>
-        </div>
-      ),
-    },
-    {
-      id: "Geotag Validation System for Delivery Accuracy",
-      name: "Geotag Validation System for Delivery Accuracy",
-      description: (
-        <div class="container">
-          <div class="topic_head">Objective</div>
-          <p>
-            To develop and implement a geotag validation system that ensures
-            delivery accuracy by analyzing the reliability of location data
-            captured at the point of delivery, enhancing operational efficiency
-            and customer satisfaction at Ecom Express.
-          </p>
-          <div class="topic_head">Working Mechanism</div>
-          <p>
-            The delivery pattern of field executives is analyzed using
-            historical data to identify typical routes and behaviors. Various
-            parameters, such as distance from the intended delivery location and
-            timing, are assessed to evaluate the likelihood of a geotag being
-            inaccurately punched. This analysis helps flag potentially incorrect
-            deliveries for further review.
-          </p>
-          <div class="topic_head">Development Process</div>
-          <p>
-            The development process involved calculating key metrics for each
-            field executive, such as the time difference (timedelta) and
-            distance change (distance delta) from the previous delivery.
-            Additionally, the distance from the distribution center and the time
-            of delivery were factored in. These parameters, combined with our
-            address intelligence algorithms, were used to classify each geocode
-            as either good or bad, helping to ensure accurate delivery data and
-            improve operational efficiency.
-          </p>
-          <div class="topic_head">Scope for Improvements</div>
-          <p>
-            The system can be improved by fine-tuning the parameters to account
-            for edge cases such as unusual delivery routes or remote areas.
-            Enhancing the accuracy of the address intelligence can reduce false
-            positives. Additionally, incorporating feedback loops from delivery
-            agents could help in refining the tagging mechanism.
           </p>
         </div>
       ),
