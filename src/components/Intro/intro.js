@@ -20,17 +20,17 @@ const IntroPage = () => {
             <h2 className="typewriter">Data Scientist 2 @ Ecom Express</h2>
           </div>
           <div className="about_me fade-in-left-to-right">
-            Welcome to my personal website! I'm a passionate data scientist,
-            skilled in leveraging data-driven insights to solve complex business
-            challenges. With expertise in natural language processing, anomaly
-            detection, and fraud modeling, I excel at applying advanced machine
-            learning techniques to extract valuable insights. With a proven
-            track record of collaborating with exceptional mentors, mentoring my
-            juniors and contributing to impactful projects in renowned
-            organizations, I am driven by a passion for continuous learning.
-            Explore my website to learn more about my projects, expertise, and
-            achievements. Let's connect and create something extraordinary
-            together in the world of data science.
+            Welcome to my personal website! I'm a passionate data scientist with
+            5+ years of experience, skilled in leveraging data-driven insights
+            to solve complex business challenges. With expertise in problem
+            solving, anomaly detection, and fraud modeling, I excel at applying
+            advanced machine learning techniques to extract valuable insights.
+            With a proven track record of collaborating with exceptional
+            mentors, mentoring my juniors and contributing to impactful projects
+            in renowned organizations, I am driven by a passion for continuous
+            learning. Explore my website to learn more about my projects,
+            expertise, and achievements. Let's connect and create something
+            extraordinary together in the world of data science.
             <br></br>
             <center>
               <button class="blog_url" onClick={changeView}>

@@ -6,6 +6,66 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const EcomExpress = () => {
   const projects = [
     {
+      id: "Reattempt Delivery Success Prediction",
+      name: "Reattempt Delivery Success Prediction",
+      description: (
+        <div class="container">
+          <div class="topic_head">Objective</div>
+          <p>
+            The goal of this project was to develop a ML-based solution to
+            predict the success probability of reattempted deliveries.
+            Reattempted deliveries generally have a low success rate and are
+            often deprioritized by delivery centers. By accurately ranking
+            pending deliveries based on their likelihood of success, the project
+            aimed to optimize resource allocation, improve delivery efficiency,
+            and reduce operational costs, saving valuable time and effort.
+          </p>
+          <div class="topic_head">Working Mechanism</div>
+          <p>
+            The solution leverages historical delivery data to analyze patterns
+            and predict the likelihood of successful reattempts. By using
+            features such as customer behavior, geographic trends, past delivery
+            interactions, and logistical parameters, the model generates a
+            success probability score for each reattempt. Deliveries are then
+            ranked in real-time, allowing delivery centers to focus their
+            resources on high-priority cases. This ranking system ensures that
+            time and resources are spent on deliveries with the highest
+            likelihood of success, significantly enhancing operational
+            efficiency.
+          </p>
+          <div class="topic_head">Development Process</div>
+          <p>
+            The project began with the collection and preparation of extensive
+            historical delivery data, including key attributes such as delivery
+            outcomes, timestamps, customer response patterns, and geolocation
+            data. After meticulous feature engineering, the most impactful
+            variables influencing success rates were identified. A custom deep
+            learning model was then developed and trained on labeled datasets to
+            accurately predict success probabilities. The model’s performance
+            was validated against real-world data, achieving a 90% success rate
+            in forecasting conversions, while reducing the overall attempt ratio
+            to 55%. Finally, the solution was deployed on a AWS Lambda to enable
+            real-time predictions and seamless integration with delivery center
+            workflows.
+          </p>
+          <div class="topic_head">Scope for Improvements</div>
+          <p>
+            While the model demonstrated remarkable accuracy and efficiency,
+            there is still room for enhancement. Incorporating additional data,
+            such as the shipment history, delivery pattern and customer-specific
+            preferences, could further improve prediction accuracy. Advanced
+            clustering techniques could be employed to group similar delivery
+            zones, enabling more localized and precise predictions.
+            Additionally, utilizing advanced deep learning algorithms like LSTM,
+            Transformers could better capture the historical events as a series.
+            A feedback loop could also be implemented, enabling the model to
+            learn continuously from new delivery outcomes and adapt to evolving
+            patterns over time.
+          </p>
+        </div>
+      ),
+    },
+    {
       id: "Geotag Validation System for Delivery Accuracy",
       name: "Geotag Validation System for Delivery Accuracy",
       description: (
