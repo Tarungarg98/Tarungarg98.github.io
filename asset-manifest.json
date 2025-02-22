@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cda3136d.css",
-    "main.js": "/static/js/main.6057e731.js",
+    "main.js": "/static/js/main.8e00a269.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/c2b_inventory.png": "/static/media/c2b_inventory.9952a45d5b3b50a3191d.png",
     "static/media/deep_learning.png": "/static/media/deep_learning.1341d36d416fe845559c.png",
@@ -14,6 +14,7 @@
     "static/media/walmart.png": "/static/media/walmart.129fa64a92c9790f52dc.png",
     "static/media/mhsg1.png": "/static/media/mhsg1.4a58fb5028c991d3b7e3.png",
     "static/media/skill.png": "/static/media/skill.15386150cfb967245195.png",
+    "static/media/zomato.png": "/static/media/zomato.ef807f45b5462e5eaeda.png",
     "static/media/aiisc.png": "/static/media/aiisc.099a332e30da60a1f7f5.png",
     "static/media/nss.png": "/static/media/nss.f53d6346f6d852ac0a8c.png",
     "static/media/email.png": "/static/media/email.506e976b1e1b4ad1c518.png",
@@ -29,11 +30,11 @@
     "index.html": "/index.html",
     "static/media/chevron-down.svg": "/static/media/chevron-down.aa2889a5642566f604439b0fe4c25dbc.svg",
     "main.cda3136d.css.map": "/static/css/main.cda3136d.css.map",
-    "main.6057e731.js.map": "/static/js/main.6057e731.js.map",
+    "main.8e00a269.js.map": "/static/js/main.8e00a269.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cda3136d.css",
-    "static/js/main.6057e731.js"
+    "static/js/main.8e00a269.js"
   ]
 }
