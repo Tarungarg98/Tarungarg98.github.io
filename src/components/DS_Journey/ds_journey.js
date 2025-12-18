@@ -13,7 +13,7 @@ const DS_Journey = () => {
       <br></br>
       <p>
         Hi, myself Tarun Garg, a 2021 graduate from BITS Pilani Hyderabad
-        Campus, currently working as a Data Scientist 2 @ Ecom Express. Like
+        Campus, currently working as a Senior Data Scientist @ Zomato. Like
         every other dualite, I joined BITS with the hope of getting Compute
         Science as a dual degree. Since the beginning, I have been interested in
         the IT sector, having a strong base with Informatics Practices as my 5th
@@ -51,7 +51,7 @@ const DS_Journey = () => {
         project. It was my first hands-on project. After that, I managed to grab
         an off-campus SI in the NLP domain. There I worked on 2 awesome
         projects, which were my best among multiple internships. Next, I worked
-        on another pro ject with the college professor which is published in a
+        on another project with the college professor which is published in a
         Journal. I also worked as a Data Science Intern at Walmart Labs. By that
         time, I had decided that I want to pursue a career in Data Science.
         Further, I did a yearlong remote thesis at the AI Institute, University
@@ -63,9 +63,11 @@ const DS_Journey = () => {
       <h4>Why I chose DS as my career option ?</h4>
       <p>
         With my limited experience, I was more fascinated by real-world
-        applications and visualizing everything in detail. DS provided both. I
-        can visualize the data, understand it and then make decisions according
-        to it. Competitive coding was tough for me and I wasn’t fascinated by it
+        applications, coding and visualizing everything in detail. Data Science
+        provided all. I can visualize the data, understand it and then make
+        decisions according to it. Further, I can use various Machine Learning
+        over the data to build predictve models for business use case.
+        Competitive coding was tough for me and I wasn’t fascinated by it
         either. Getting a career in DS is equally challenging, but it is about
         where your passion lies. I am enjoying my current work, and I see
         considerable growth potential for me in the Data Science field.
@@ -97,12 +99,41 @@ const DS_Journey = () => {
       </p>
       <p>
         My work as a Data Scientist at Cars24 primarily revolved around Fraud
-        Detection. In this project I worked on predicting fraudulent patterns in
-        a transaction using historical data of dealers data, auction patters and
-        seller - dealer collusion. This was my first experience working with
-        large data, so optimizing the algorithms was essential. Recently I am
-        working on Auction Efficiency. The tech stack revolves primarily around
-        Python and SQL.
+        Detection. In this project, I worked on predicting fraudulent patterns
+        in transactions using historical data from dealers, auction patterns,
+        and seller-dealer collusion. This was my first experience working with
+        large datasets, so optimizing the algorithms was essential. Other
+        projects I worked on focused on pricing and auction efficiency. At
+        Cars24, I worked on end-to-end data science pipelines, from raw data to
+        deployment. We used GCP and AWS for deployment, leveraging Kubernetes to
+        host a scalable API and various cron jobs to ensure that we used the
+        latest data for predictions. The tech stack primarily involved Python
+        and SQL.
+      </p>
+      <p>
+        As a Data Scientist 2 at Ecom Express, my work revolved around
+        validating delivery geotags through various algorithmic techniques and
+        predicting reattempted deliveries. In the geotag validation project, I
+        worked on identifying whether delivery punches were good or bad and
+        predicting optimal geotags for new and existing addresses in the
+        dataset. In the reattempt delivery prediction project, we extracted
+        various details and trained a Neural Network to predict the probability
+        of successful delivery on a reattempt. Here, I worked with large
+        datasets, using Parquet files, optimizing processes to ensure the
+        efficient loading of relevant data. I also deployed several AWS Batch
+        jobs, which were critical for syncing with other projects within the
+        team. The tech stack primarily involved Python, SQL, and AWS.
+      </p>
+      <p>
+        I joined Zomato as a Senior Data Scientist in February 2025. The company
+        thrives in a dynamic, fast-paced environment, offering ample resources
+        and engaging, real-world problem statements. While the culture can be
+        demanding, it has provided me with valuable opportunities to work
+        extensively with PySpark, managing big data, and developing impactful
+        solutions. Some notable projects I have worked on include visualizing
+        house numbers and towers on maps, identifying optimal entry gates for
+        riders in residential societies, and building models to predict
+        user-driven revenue based on initial orders.
       </p>
       <p>
         Remember one thing, DS is not the same as ML/DL. In DS, we primarily
@@ -210,6 +241,17 @@ const DS_Journey = () => {
         revolved around my resume. I had excellent projects, which provided me
         with an advantage over other candidates. So do focus on getting good DS
         projects/internships.
+      </p>
+      <p>
+        The recent surge in generative AI (GenAI) has created a powerful entry
+        point for freshers aspiring to launch their careers in data science.
+        GenAI is revolutionizing the field by automating routine data
+        preparation, enhancing model building, and opening up new possibilities
+        for creativity and insight generation. For those starting out, this
+        means that the bar to entry is evolving: rather than focusing solely on
+        traditional programming or pure statistics, you can now learn to
+        leverage GenAI tools that accelerate your ability to solve complex,
+        real-world problems.
       </p>
       <p>
         To sum up, a career in DS is not a cakewalk, neither is SDE or other

@@ -14,6 +14,7 @@ const Skills = () => {
           <ul>
             <li>Python</li>
             <li>SQL</li>
+            <li>PySpark</li>
             <li>React.js</li>
             <li>HTML</li>
             <li>CSS</li>

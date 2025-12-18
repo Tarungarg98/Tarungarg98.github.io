@@ -167,7 +167,24 @@ const EcomExpress = () => {
       over existing projects, making an impact within a month of joining.
       Leveraging my experience in writing quality code, I ensured that all my
       contributions were modular, easy to read, and understandable from the very
-      beginning.
+      beginning. Working alongside leaders like{" "}
+      <a
+        href="https://www.linkedin.com/in/manjeetdahiya/"
+        title="Manjeet Dahiya"
+        target="_blank"
+      >
+        Manjeet Dahiya
+      </a>{" "}
+      and{" "}
+      <a
+        href="https://www.linkedin.com/in/bipin-deep-singh-8b220454/"
+        title="Bipin Deep Singh"
+        target="_blank"
+      >
+        Bipin Deep Singh
+      </a>{" "}
+      provided valuable guidance and helped shape impactful data-driven
+      solutions for the organization.
     </div>
   );
   return (
@@ -175,7 +192,7 @@ const EcomExpress = () => {
       <CompanyPage
         companyname="Ecom Express"
         designation="Data Scientist 2"
-        duration="June 2024 - Present"
+        duration="June 2024 - February 2025"
         brief={brief}
         image={ecom_express_img}
         projects={projects}

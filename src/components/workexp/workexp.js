@@ -4,6 +4,7 @@ import KEC_INTERNATIONAL from "./KEC_International";
 import AIISC from "./AIISC";
 import Cars24 from "./Cars24";
 import EcomExpress from "./EcomExpress";
+import Zomato from "./Zomato";
 import BITS_Project from "./BITS_Project";
 import "./workexp.css";
 
@@ -12,6 +13,8 @@ function WorkExp() {
     <div>
       <div className="workexp" id="workexp">
         <h1>Work Experience</h1>
+        <hr></hr>
+        <Zomato />
         <hr></hr>
         <EcomExpress />
         <hr></hr>
