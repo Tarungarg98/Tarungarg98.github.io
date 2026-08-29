@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cda3136d.css",
-    "main.js": "/static/js/main.7d4e6dfd.js",
+    "main.css": "/static/css/main.1bf0dc3b.css",
+    "main.js": "/static/js/main.5b92881a.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/c2b_inventory.png": "/static/media/c2b_inventory.9952a45d5b3b50a3191d.png",
     "static/media/deep_learning.png": "/static/media/deep_learning.1341d36d416fe845559c.png",
@@ -9,11 +9,10 @@
     "static/media/react.png": "/static/media/react.91d558c3212ffed13748.png",
     "static/media/tensorflow.png": "/static/media/tensorflow.0c993ede34bd8676a2bb.png",
     "static/media/machine_learning.png": "/static/media/machine_learning.082c5be9452607140a8e.png",
+    "static/media/tarun_1.jpg": "/static/media/tarun_1.ae8005c3644aadc2fc8b.jpg",
     "static/media/BITS.png": "/static/media/BITS.64007813fee1e36b92fc.png",
-    "static/media/tarun.png": "/static/media/tarun.9e8ccb7bce21ca68489a.png",
     "static/media/walmart.png": "/static/media/walmart.129fa64a92c9790f52dc.png",
     "static/media/mhsg1.png": "/static/media/mhsg1.4a58fb5028c991d3b7e3.png",
-    "static/media/skill.png": "/static/media/skill.15386150cfb967245195.png",
     "static/media/zomato.png": "/static/media/zomato.ef807f45b5462e5eaeda.png",
     "static/media/aiisc.png": "/static/media/aiisc.099a332e30da60a1f7f5.png",
     "static/media/nss.png": "/static/media/nss.f53d6346f6d852ac0a8c.png",
@@ -28,13 +27,12 @@
     "static/media/linkedin.png": "/static/media/linkedin.e422a7a6be1a6a0b7cad.png",
     "static/media/resume.png": "/static/media/resume.25b93c42c7bb2298d147.png",
     "index.html": "/index.html",
-    "static/media/chevron-down.svg": "/static/media/chevron-down.aa2889a5642566f604439b0fe4c25dbc.svg",
-    "main.cda3136d.css.map": "/static/css/main.cda3136d.css.map",
-    "main.7d4e6dfd.js.map": "/static/js/main.7d4e6dfd.js.map",
+    "main.1bf0dc3b.css.map": "/static/css/main.1bf0dc3b.css.map",
+    "main.5b92881a.js.map": "/static/js/main.5b92881a.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cda3136d.css",
-    "static/js/main.7d4e6dfd.js"
+    "static/css/main.1bf0dc3b.css",
+    "static/js/main.5b92881a.js"
   ]
 }
